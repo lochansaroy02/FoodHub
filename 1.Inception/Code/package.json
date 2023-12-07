@@ -1,0 +1,22 @@
+{
+  "name": "react-bootcamp",
+  "version": "1.0.0",
+  "description": "This is detailed React Bootcamp",
+  "main": "script.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lochansaroy02/React-Bootcamp.git#main"
+  },
+  "author": "Lochan Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lochansaroy02/React-Bootcamp/issues"
+  },
+  "homepage": "https://github.com/lochansaroy02/React-Bootcamp/tree/main#readme",
+  "devDependencies": {
+    "parcel": "^2.10.3"
+  }
+}
