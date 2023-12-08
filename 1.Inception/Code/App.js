@@ -19,7 +19,6 @@ let header = (
 
 let Header = () => (
   <div>
-    <Header2 />
     <h1
       id="head"
       style={{
