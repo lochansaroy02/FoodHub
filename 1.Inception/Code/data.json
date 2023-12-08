@@ -1,0 +1,1665 @@
+{
+    "restaurants": [
+        {
+            "info": {
+                "id": "351188",
+                "name": "KFC",
+                "cloudinaryImageId": "f01666ac73626461d7455d9c24005cd4",
+                "locality": "Naktala",
+                "areaName": "Garia",
+                "costForTwo": "₹400 for two",
+                "cuisines": [
+                    "Burgers",
+                    "Biryani",
+                    "American",
+                    "Snacks",
+                    "Fast Food"
+                ],
+                "avgRating": 4.3,
+                "feeDetails": {
+                    "restaurantId": "351188",
+                    "fees": [
+                        {
+                            "name": "BASE_DISTANCE",
+                            "fee": 4400
+                        },
+                        {
+                            "name": "BASE_TIME"
+                        },
+                        {
+                            "name": "ANCILLARY_SURGE_FEE"
+                        }
+                    ],
+                    "totalFee": 4400
+                },
+                "parentId": "547",
+                "avgRatingString": "4.3",
+                "totalRatingsString": "10K+",
+                "sla": {
+                    "deliveryTime": 23,
+                    "lastMileTravel": 2.2,
+                    "serviceability": "SERVICEABLE",
+                    "slaString": "23 mins",
+                    "lastMileTravelString": "2.2 km",
+                    "iconType": "ICON_TYPE_EMPTY"
+                },
+                "availability": {
+                    "nextCloseTime": "2023-12-09 02:59:00",
+                    "opened": true
+                },
+                "badges": {},
+                "isOpen": true,
+                "type": "F",
+                "badgesV2": {
+                    "entityBadges": {
+                        "imageBased": {},
+                        "textBased": {},
+                        "textExtendedBadges": {}
+                    }
+                },
+                "aggregatedDiscountInfoV3": {
+                    "header": "40% OFF",
+                    "subHeader": "UPTO ₹80"
+                },
+                "differentiatedUi": {
+                    "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                    "differentiatedUiMediaDetails": {
+                        "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                        "lottie": {},
+                        "video": {}
+                    }
+                },
+                "reviewsSummary": {},
+                "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                "restaurantOfferPresentationInfo": {}
+            },
+            "analytics": {},
+            "cta": {
+                "link": "https://www.swiggy.com/restaurants/kfc-naktala-garia-kolkata-351188",
+                "type": "WEBLINK"
+            }
+        },
+        {
+            "info": {
+                "id": "42403",
+                "name": "Hatari-Garia",
+                "cloudinaryImageId": "aodij6phuhgdict3utc1",
+                "locality": "Putiary naskar para road",
+                "areaName": "Rajpur Sonarpur",
+                "costForTwo": "₹400 for two",
+                "cuisines": [
+                    "Chinese",
+                    "North Indian",
+                    "Seafood"
+                ],
+                "avgRating": 4.4,
+                "feeDetails": {
+                    "restaurantId": "42403",
+                    "fees": [
+                        {
+                            "name": "BASE_DISTANCE",
+                            "fee": 4400
+                        },
+                        {
+                            "name": "BASE_TIME"
+                        },
+                        {
+                            "name": "ANCILLARY_SURGE_FEE"
+                        }
+                    ],
+                    "totalFee": 4400
+                },
+                "parentId": "357689",
+                "avgRatingString": "4.4",
+                "totalRatingsString": "10K+",
+                "sla": {
+                    "deliveryTime": 35,
+                    "lastMileTravel": 1,
+                    "serviceability": "SERVICEABLE",
+                    "slaString": "35 mins",
+                    "lastMileTravelString": "1.0 km",
+                    "iconType": "ICON_TYPE_EMPTY"
+                },
+                "availability": {
+                    "nextCloseTime": "2023-12-08 23:59:00",
+                    "opened": true
+                },
+                "badges": {},
+                "isOpen": true,
+                "type": "F",
+                "badgesV2": {
+                    "entityBadges": {
+                        "imageBased": {},
+                        "textBased": {},
+                        "textExtendedBadges": {}
+                    }
+                },
+                "aggregatedDiscountInfoV3": {
+                    "header": "30% OFF",
+                    "subHeader": "UPTO ₹75"
+                },
+                "differentiatedUi": {
+                    "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                    "differentiatedUiMediaDetails": {
+                        "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                        "lottie": {},
+                        "video": {}
+                    }
+                },
+                "reviewsSummary": {},
+                "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                "restaurantOfferPresentationInfo": {}
+            },
+            "analytics": {},
+            "cta": {
+                "link": "https://www.swiggy.com/restaurants/hatari-garia-putiary-naskar-para-road-rajpur-sonarpur-kolkata-42403",
+                "type": "WEBLINK"
+            }
+        },
+        {
+            "info": {
+                "id": "364444",
+                "name": "Pizza Hut",
+                "cloudinaryImageId": "2b4f62d606d1b2bfba9ba9e5386fabb7",
+                "locality": "Garia Road",
+                "areaName": "Ramkrishna Nagar",
+                "costForTwo": "₹350 for two",
+                "cuisines": [
+                    "Pizzas",
+                    "Fast Food"
+                ],
+                "avgRating": 4.2,
+                "feeDetails": {
+                    "restaurantId": "364444",
+                    "fees": [
+                        {
+                            "name": "BASE_DISTANCE",
+                            "fee": 3700
+                        },
+                        {
+                            "name": "BASE_TIME"
+                        },
+                        {
+                            "name": "ANCILLARY_SURGE_FEE"
+                        }
+                    ],
+                    "totalFee": 3700
+                },
+                "parentId": "721",
+                "avgRatingString": "4.2",
+                "totalRatingsString": "5K+",
+                "sla": {
+                    "deliveryTime": 23,
+                    "lastMileTravel": 1.1,
+                    "serviceability": "SERVICEABLE",
+                    "slaString": "23 mins",
+                    "lastMileTravelString": "1.1 km",
+                    "iconType": "ICON_TYPE_EMPTY"
+                },
+                "availability": {
+                    "nextCloseTime": "2023-12-09 04:00:00",
+                    "opened": true
+                },
+                "badges": {},
+                "isOpen": true,
+                "type": "F",
+                "badgesV2": {
+                    "entityBadges": {
+                        "imageBased": {},
+                        "textBased": {},
+                        "textExtendedBadges": {}
+                    }
+                },
+                "aggregatedDiscountInfoV3": {
+                    "header": "50% OFF",
+                    "subHeader": "UPTO ₹100"
+                },
+                "differentiatedUi": {
+                    "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                    "differentiatedUiMediaDetails": {
+                        "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                        "lottie": {},
+                        "video": {}
+                    }
+                },
+                "reviewsSummary": {},
+                "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                "restaurantOfferPresentationInfo": {}
+            },
+            "analytics": {},
+            "cta": {
+                "link": "https://www.swiggy.com/restaurants/pizza-hut-garia-road-ramkrishna-nagar-kolkata-364444",
+                "type": "WEBLINK"
+            }
+        },
+        {
+            "info": {
+                "id": "118999",
+                "name": "Haji's",
+                "cloudinaryImageId": "eadd92e5cf369d56eeaf3062622c3c71",
+                "locality": "Netaji Subhash Chandra Bose Rd",
+                "areaName": "Garia",
+                "costForTwo": "₹400 for two",
+                "cuisines": [
+                    "Biryani",
+                    "Chinese",
+                    "North Indian",
+                    "Mughlai"
+                ],
+                "avgRating": 4.2,
+                "feeDetails": {
+                    "restaurantId": "118999",
+                    "fees": [
+                        {
+                            "name": "BASE_DISTANCE",
+                            "fee": 4400
+                        },
+                        {
+                            "name": "BASE_TIME"
+                        },
+                        {
+                            "name": "ANCILLARY_SURGE_FEE"
+                        }
+                    ],
+                    "totalFee": 4400
+                },
+                "parentId": "412124",
+                "avgRatingString": "4.2",
+                "totalRatingsString": "10K+",
+                "sla": {
+                    "deliveryTime": 25,
+                    "lastMileTravel": 2,
+                    "serviceability": "SERVICEABLE",
+                    "slaString": "25 mins",
+                    "lastMileTravelString": "2.0 km",
+                    "iconType": "ICON_TYPE_EMPTY"
+                },
+                "availability": {
+                    "nextCloseTime": "2023-12-09 00:30:00",
+                    "opened": true
+                },
+                "badges": {},
+                "isOpen": true,
+                "type": "F",
+                "badgesV2": {
+                    "entityBadges": {
+                        "imageBased": {},
+                        "textBased": {},
+                        "textExtendedBadges": {}
+                    }
+                },
+                "aggregatedDiscountInfoV3": {
+                    "header": "₹100 OFF",
+                    "subHeader": "ABOVE ₹249",
+                    "discountTag": "FLAT DEAL"
+                },
+                "differentiatedUi": {
+                    "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                    "differentiatedUiMediaDetails": {
+                        "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                        "lottie": {},
+                        "video": {}
+                    }
+                },
+                "reviewsSummary": {},
+                "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                "restaurantOfferPresentationInfo": {}
+            },
+            "analytics": {},
+            "cta": {
+                "link": "https://www.swiggy.com/restaurants/hajis-netaji-subhash-chandra-bose-rd-garia-kolkata-118999",
+                "type": "WEBLINK"
+            }
+        },
+        {
+            "info": {
+                "id": "136045",
+                "name": "Machhli Baba Fries",
+                "cloudinaryImageId": "kal09qx96rvxjsyxlojp",
+                "locality": "Garia",
+                "areaName": "Garia",
+                "costForTwo": "₹250 for two",
+                "cuisines": [
+                    "Bengali",
+                    "Street Food",
+                    "Rolls & Wraps",
+                    "Kebabs",
+                    "Fast Food"
+                ],
+                "avgRating": 4.5,
+                "feeDetails": {
+                    "restaurantId": "136045",
+                    "fees": [
+                        {
+                            "name": "BASE_DISTANCE",
+                            "fee": 4200
+                        },
+                        {
+                            "name": "BASE_TIME"
+                        },
+                        {
+                            "name": "ANCILLARY_SURGE_FEE"
+                        }
+                    ],
+                    "totalFee": 4200
+                },
+                "parentId": "4413",
+                "avgRatingString": "4.5",
+                "totalRatingsString": "5K+",
+                "sla": {
+                    "deliveryTime": 25,
+                    "lastMileTravel": 1.2,
+                    "serviceability": "SERVICEABLE",
+                    "slaString": "25 mins",
+                    "lastMileTravelString": "1.2 km",
+                    "iconType": "ICON_TYPE_EMPTY"
+                },
+                "availability": {
+                    "nextCloseTime": "2023-12-09 00:00:00",
+                    "opened": true
+                },
+                "badges": {},
+                "isOpen": true,
+                "type": "F",
+                "badgesV2": {
+                    "entityBadges": {
+                        "imageBased": {},
+                        "textBased": {},
+                        "textExtendedBadges": {}
+                    }
+                },
+                "aggregatedDiscountInfoV3": {
+                    "header": "20% OFF",
+                    "subHeader": "UPTO ₹50"
+                },
+                "differentiatedUi": {
+                    "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                    "differentiatedUiMediaDetails": {
+                        "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                        "lottie": {},
+                        "video": {}
+                    }
+                },
+                "reviewsSummary": {},
+                "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                "restaurantOfferPresentationInfo": {}
+            },
+            "analytics": {},
+            "cta": {
+                "link": "https://www.swiggy.com/restaurants/machhli-baba-fries-garia-kolkata-136045",
+                "type": "WEBLINK"
+            }
+        },
+        {
+            "info": {
+                "id": "319403",
+                "name": "Mama Mia! - Italian Ice Creams & Cakes",
+                "cloudinaryImageId": "3fe5dc86f66547e04f84dea5fd3b3e96",
+                "areaName": "Garia",
+                "costForTwo": "₹250 for two",
+                "cuisines": [
+                    "Ice Cream",
+                    "Desserts",
+                    "Bakery"
+                ],
+                "avgRating": 4.7,
+                "feeDetails": {
+                    "restaurantId": "319403",
+                    "fees": [
+                        {
+                            "name": "BASE_DISTANCE",
+                            "fee": 4200
+                        },
+                        {
+                            "name": "BASE_TIME"
+                        },
+                        {
+                            "name": "ANCILLARY_SURGE_FEE"
+                        }
+                    ],
+                    "totalFee": 4200
+                },
+                "parentId": "471728",
+                "avgRatingString": "4.7",
+                "totalRatingsString": "1K+",
+                "sla": {
+                    "deliveryTime": 17,
+                    "lastMileTravel": 1.6,
+                    "serviceability": "SERVICEABLE",
+                    "slaString": "17 mins",
+                    "lastMileTravelString": "1.6 km",
+                    "iconType": "ICON_TYPE_EMPTY"
+                },
+                "availability": {
+                    "nextCloseTime": "2023-12-09 00:00:00",
+                    "opened": true
+                },
+                "badges": {
+                    "imageBadges": [
+                        {
+                            "imageId": "v1669879258/GFF_logo_new_xbycg6.png",
+                            "description": "gourmet"
+                        }
+                    ]
+                },
+                "isOpen": true,
+                "type": "F",
+                "badgesV2": {
+                    "entityBadges": {
+                        "imageBased": {
+                            "badgeObject": [
+                                {
+                                    "attributes": {
+                                        "description": "gourmet",
+                                        "imageId": "v1669879258/GFF_logo_new_xbycg6.png"
+                                    }
+                                }
+                            ]
+                        },
+                        "textBased": {},
+                        "textExtendedBadges": {}
+                    }
+                },
+                "aggregatedDiscountInfoV3": {
+                    "header": "₹150 OFF",
+                    "subHeader": "ABOVE ₹549",
+                    "discountTag": "FLAT DEAL"
+                },
+                "differentiatedUi": {
+                    "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                    "differentiatedUiMediaDetails": {
+                        "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                        "lottie": {},
+                        "video": {}
+                    }
+                },
+                "reviewsSummary": {},
+                "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                "restaurantOfferPresentationInfo": {}
+            },
+            "analytics": {},
+            "cta": {
+                "link": "https://www.swiggy.com/restaurants/mama-mia-italian-ice-creams-and-cakes-garia-kolkata-319403",
+                "type": "WEBLINK"
+            }
+        },
+        {
+            "info": {
+                "id": "207635",
+                "name": "Wow! Momo",
+                "cloudinaryImageId": "0984acc0ed7b914206dbbcb90297becc",
+                "locality": "Sahid Khudiram Metro Station",
+                "areaName": "Garia",
+                "costForTwo": "₹300 for two",
+                "cuisines": [
+                    "Tibetan",
+                    "Healthy Food",
+                    "Asian",
+                    "Chinese",
+                    "Snacks",
+                    "Continental",
+                    "Desserts",
+                    "Beverages"
+                ],
+                "avgRating": 4.3,
+                "feeDetails": {
+                    "restaurantId": "207635",
+                    "fees": [
+                        {
+                            "name": "BASE_DISTANCE",
+                            "fee": 3700
+                        },
+                        {
+                            "name": "BASE_TIME"
+                        },
+                        {
+                            "name": "ANCILLARY_SURGE_FEE"
+                        }
+                    ],
+                    "totalFee": 3700
+                },
+                "parentId": "1776",
+                "avgRatingString": "4.3",
+                "totalRatingsString": "500+",
+                "sla": {
+                    "deliveryTime": 20,
+                    "lastMileTravel": 1.1,
+                    "serviceability": "SERVICEABLE",
+                    "slaString": "20 mins",
+                    "lastMileTravelString": "1.1 km",
+                    "iconType": "ICON_TYPE_EMPTY"
+                },
+                "availability": {
+                    "nextCloseTime": "2023-12-08 21:00:00",
+                    "opened": true
+                },
+                "badges": {},
+                "isOpen": true,
+                "aggregatedDiscountInfoV2": {},
+                "type": "F",
+                "badgesV2": {
+                    "entityBadges": {
+                        "imageBased": {},
+                        "textBased": {},
+                        "textExtendedBadges": {}
+                    }
+                },
+                "differentiatedUi": {
+                    "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                    "differentiatedUiMediaDetails": {
+                        "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                        "lottie": {},
+                        "video": {}
+                    }
+                },
+                "reviewsSummary": {},
+                "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                "restaurantOfferPresentationInfo": {}
+            },
+            "analytics": {},
+            "cta": {
+                "link": "https://www.swiggy.com/restaurants/wow-momo-sahid-khudiram-metro-station-garia-kolkata-207635",
+                "type": "WEBLINK"
+            }
+        },
+        {
+            "info": {
+                "id": "360986",
+                "name": "Dariole",
+                "cloudinaryImageId": "xxs6se06ptfloeiln1yo",
+                "locality": "Naktala",
+                "areaName": "Naktala",
+                "costForTwo": "₹150 for two",
+                "cuisines": [
+                    "Bakery",
+                    "Desserts"
+                ],
+                "avgRating": 4.5,
+                "feeDetails": {
+                    "restaurantId": "360986",
+                    "fees": [
+                        {
+                            "name": "BASE_DISTANCE",
+                            "fee": 4700
+                        },
+                        {
+                            "name": "BASE_TIME"
+                        },
+                        {
+                            "name": "ANCILLARY_SURGE_FEE"
+                        }
+                    ],
+                    "totalFee": 4700
+                },
+                "parentId": "6960",
+                "avgRatingString": "4.5",
+                "totalRatingsString": "1K+",
+                "sla": {
+                    "deliveryTime": 26,
+                    "lastMileTravel": 3.5,
+                    "serviceability": "SERVICEABLE",
+                    "slaString": "26 mins",
+                    "lastMileTravelString": "3.5 km",
+                    "iconType": "ICON_TYPE_EMPTY"
+                },
+                "availability": {
+                    "nextCloseTime": "2023-12-08 21:55:00",
+                    "opened": true
+                },
+                "badges": {},
+                "isOpen": true,
+                "type": "F",
+                "badgesV2": {
+                    "entityBadges": {
+                        "imageBased": {},
+                        "textBased": {},
+                        "textExtendedBadges": {}
+                    }
+                },
+                "aggregatedDiscountInfoV3": {
+                    "header": "20% OFF",
+                    "subHeader": "UPTO ₹50"
+                },
+                "differentiatedUi": {
+                    "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                    "differentiatedUiMediaDetails": {
+                        "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                        "lottie": {},
+                        "video": {}
+                    }
+                },
+                "reviewsSummary": {},
+                "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                "restaurantOfferPresentationInfo": {}
+            },
+            "analytics": {},
+            "cta": {
+                "link": "https://www.swiggy.com/restaurants/dariole-naktala-kolkata-360986",
+                "type": "WEBLINK"
+            }
+        },
+        {
+            "info": {
+                "id": "44087",
+                "name": "Shiraz Golden Restaurant",
+                "cloudinaryImageId": "ofqpoisu3uufma6henu9",
+                "locality": "Opposite Kali Temple",
+                "areaName": "Santoshpur",
+                "costForTwo": "₹500 for two",
+                "cuisines": [
+                    "Biryani",
+                    "Mughlai",
+                    "North Indian",
+                    "Indian",
+                    "Kebabs",
+                    "Tandoor"
+                ],
+                "avgRating": 4.3,
+                "feeDetails": {
+                    "restaurantId": "44087",
+                    "fees": [
+                        {
+                            "name": "BASE_DISTANCE",
+                            "fee": 5400
+                        },
+                        {
+                            "name": "BASE_TIME"
+                        },
+                        {
+                            "name": "ANCILLARY_SURGE_FEE"
+                        }
+                    ],
+                    "totalFee": 5400
+                },
+                "parentId": "5569",
+                "avgRatingString": "4.3",
+                "totalRatingsString": "10K+",
+                "sla": {
+                    "deliveryTime": 30,
+                    "lastMileTravel": 3.9,
+                    "serviceability": "SERVICEABLE",
+                    "slaString": "30 mins",
+                    "lastMileTravelString": "3.9 km",
+                    "iconType": "ICON_TYPE_EMPTY"
+                },
+                "availability": {
+                    "nextCloseTime": "2023-12-09 04:00:00",
+                    "opened": true
+                },
+                "badges": {},
+                "isOpen": true,
+                "type": "F",
+                "badgesV2": {
+                    "entityBadges": {
+                        "imageBased": {},
+                        "textBased": {},
+                        "textExtendedBadges": {}
+                    }
+                },
+                "aggregatedDiscountInfoV3": {
+                    "header": "10% OFF",
+                    "subHeader": "ABOVE ₹1000",
+                    "discountTag": "FLAT DEAL"
+                },
+                "differentiatedUi": {
+                    "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                    "differentiatedUiMediaDetails": {
+                        "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                        "lottie": {},
+                        "video": {}
+                    }
+                },
+                "reviewsSummary": {},
+                "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                "restaurantOfferPresentationInfo": {}
+            },
+            "analytics": {},
+            "cta": {
+                "link": "https://www.swiggy.com/restaurants/shiraz-golden-restaurant-opposite-kali-temple-santoshpur-kolkata-44087",
+                "type": "WEBLINK"
+            }
+        },
+        {
+            "info": {
+                "id": "16343",
+                "name": "Haji Ali",
+                "cloudinaryImageId": "eadd92e5cf369d56eeaf3062622c3c71",
+                "locality": "Santoshpur",
+                "areaName": "Santoshpur",
+                "costForTwo": "₹500 for two",
+                "cuisines": [
+                    "Biryani",
+                    "Mughlai",
+                    "North Indian",
+                    "Kebabs",
+                    "Tandoor",
+                    "Indian",
+                    "Chinese"
+                ],
+                "avgRating": 4.3,
+                "feeDetails": {
+                    "restaurantId": "16343",
+                    "fees": [
+                        {
+                            "name": "BASE_DISTANCE",
+                            "fee": 5400
+                        },
+                        {
+                            "name": "BASE_TIME"
+                        },
+                        {
+                            "name": "ANCILLARY_SURGE_FEE"
+                        }
+                    ],
+                    "totalFee": 5400
+                },
+                "parentId": "2925",
+                "avgRatingString": "4.3",
+                "totalRatingsString": "10K+",
+                "sla": {
+                    "deliveryTime": 28,
+                    "lastMileTravel": 3.9,
+                    "serviceability": "SERVICEABLE",
+                    "slaString": "28 mins",
+                    "lastMileTravelString": "3.9 km",
+                    "iconType": "ICON_TYPE_EMPTY"
+                },
+                "availability": {
+                    "nextCloseTime": "2023-12-09 01:00:00",
+                    "opened": true
+                },
+                "badges": {},
+                "isOpen": true,
+                "type": "F",
+                "badgesV2": {
+                    "entityBadges": {
+                        "imageBased": {},
+                        "textBased": {},
+                        "textExtendedBadges": {}
+                    }
+                },
+                "aggregatedDiscountInfoV3": {
+                    "header": "₹100 OFF",
+                    "subHeader": "ABOVE ₹249",
+                    "discountTag": "FLAT DEAL"
+                },
+                "differentiatedUi": {
+                    "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                    "differentiatedUiMediaDetails": {
+                        "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                        "lottie": {},
+                        "video": {}
+                    }
+                },
+                "reviewsSummary": {},
+                "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                "restaurantOfferPresentationInfo": {}
+            },
+            "analytics": {},
+            "cta": {
+                "link": "https://www.swiggy.com/restaurants/haji-ali-santoshpur-kolkata-16343",
+                "type": "WEBLINK"
+            }
+        },
+        {
+            "info": {
+                "id": "84317",
+                "name": "Cakes",
+                "cloudinaryImageId": "uqkodgi6xiudok0yynj4",
+                "locality": "H Block",
+                "areaName": "Garia",
+                "costForTwo": "₹200 for two",
+                "cuisines": [
+                    "Desserts",
+                    "Bakery"
+                ],
+                "avgRating": 4.6,
+                "feeDetails": {
+                    "restaurantId": "84317",
+                    "fees": [
+                        {
+                            "name": "BASE_DISTANCE",
+                            "fee": 4400
+                        },
+                        {
+                            "name": "BASE_TIME"
+                        },
+                        {
+                            "name": "ANCILLARY_SURGE_FEE"
+                        }
+                    ],
+                    "totalFee": 4400
+                },
+                "parentId": "4861",
+                "avgRatingString": "4.6",
+                "totalRatingsString": "10K+",
+                "sla": {
+                    "deliveryTime": 22,
+                    "lastMileTravel": 2.4,
+                    "serviceability": "SERVICEABLE",
+                    "slaString": "22 mins",
+                    "lastMileTravelString": "2.4 km",
+                    "iconType": "ICON_TYPE_EMPTY"
+                },
+                "availability": {
+                    "nextCloseTime": "2023-12-08 21:00:00",
+                    "opened": true
+                },
+                "badges": {},
+                "isOpen": true,
+                "aggregatedDiscountInfoV2": {},
+                "type": "F",
+                "badgesV2": {
+                    "entityBadges": {
+                        "imageBased": {},
+                        "textBased": {},
+                        "textExtendedBadges": {}
+                    }
+                },
+                "differentiatedUi": {
+                    "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                    "differentiatedUiMediaDetails": {
+                        "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                        "lottie": {},
+                        "video": {}
+                    }
+                },
+                "reviewsSummary": {},
+                "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                "restaurantOfferPresentationInfo": {}
+            },
+            "analytics": {},
+            "cta": {
+                "link": "https://www.swiggy.com/restaurants/cakes-h-block-garia-kolkata-84317",
+                "type": "WEBLINK"
+            }
+        },
+        {
+            "info": {
+                "id": "326667",
+                "name": "6 Ballygunge Place",
+                "cloudinaryImageId": "mdvkb3juzuqdvj5f3ad2",
+                "locality": "Nsc Bose Road",
+                "areaName": "Garia",
+                "costForTwo": "₹800 for two",
+                "cuisines": [
+                    "Bengali"
+                ],
+                "avgRating": 4.4,
+                "feeDetails": {
+                    "restaurantId": "326667",
+                    "fees": [
+                        {
+                            "name": "BASE_DISTANCE",
+                            "fee": 4400
+                        },
+                        {
+                            "name": "BASE_TIME"
+                        },
+                        {
+                            "name": "ANCILLARY_SURGE_FEE"
+                        }
+                    ],
+                    "totalFee": 4400
+                },
+                "parentId": "1243",
+                "avgRatingString": "4.4",
+                "totalRatingsString": "1K+",
+                "sla": {
+                    "deliveryTime": 20,
+                    "lastMileTravel": 1.9,
+                    "serviceability": "SERVICEABLE",
+                    "slaString": "20 mins",
+                    "lastMileTravelString": "1.9 km",
+                    "iconType": "ICON_TYPE_EMPTY"
+                },
+                "availability": {
+                    "nextCloseTime": "2023-12-08 22:00:00",
+                    "opened": true
+                },
+                "badges": {
+                    "imageBadges": [
+                        {
+                            "imageId": "v1669879258/GFF_logo_new_xbycg6.png",
+                            "description": "gourmet"
+                        }
+                    ]
+                },
+                "isOpen": true,
+                "type": "F",
+                "badgesV2": {
+                    "entityBadges": {
+                        "imageBased": {
+                            "badgeObject": [
+                                {
+                                    "attributes": {
+                                        "description": "gourmet",
+                                        "imageId": "v1669879258/GFF_logo_new_xbycg6.png"
+                                    }
+                                }
+                            ]
+                        },
+                        "textBased": {},
+                        "textExtendedBadges": {}
+                    }
+                },
+                "aggregatedDiscountInfoV3": {
+                    "header": "10% OFF",
+                    "subHeader": "UPTO ₹40"
+                },
+                "differentiatedUi": {
+                    "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                    "differentiatedUiMediaDetails": {
+                        "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                        "lottie": {},
+                        "video": {}
+                    }
+                },
+                "reviewsSummary": {},
+                "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                "restaurantOfferPresentationInfo": {}
+            },
+            "analytics": {},
+            "cta": {
+                "link": "https://www.swiggy.com/restaurants/6-ballygunge-place-nsc-bose-road-garia-kolkata-326667",
+                "type": "WEBLINK"
+            }
+        },
+        {
+            "info": {
+                "id": "71077",
+                "name": "Banana leaf",
+                "cloudinaryImageId": "a500fcc49ac281c56dfe00ceefbf6122",
+                "locality": "Garia",
+                "areaName": "Garia",
+                "costForTwo": "₹200 for two",
+                "cuisines": [
+                    "South Indian"
+                ],
+                "avgRating": 4.4,
+                "veg": true,
+                "feeDetails": {
+                    "restaurantId": "71077",
+                    "fees": [
+                        {
+                            "name": "BASE_DISTANCE",
+                            "fee": 3700
+                        },
+                        {
+                            "name": "BASE_TIME"
+                        },
+                        {
+                            "name": "ANCILLARY_SURGE_FEE"
+                        }
+                    ],
+                    "totalFee": 3700
+                },
+                "parentId": "1285",
+                "avgRatingString": "4.4",
+                "totalRatingsString": "10K+",
+                "sla": {
+                    "deliveryTime": 28,
+                    "lastMileTravel": 2.8,
+                    "serviceability": "SERVICEABLE",
+                    "slaString": "28 mins",
+                    "lastMileTravelString": "2.8 km",
+                    "iconType": "ICON_TYPE_EMPTY"
+                },
+                "availability": {
+                    "nextCloseTime": "2023-12-08 22:00:00",
+                    "opened": true
+                },
+                "badges": {
+                    "textExtendedBadges": [
+                        {
+                            "iconId": "guiltfree/GF_Logo_android_3x",
+                            "shortDescription": "options available",
+                            "fontColor": "#7E808C"
+                        }
+                    ]
+                },
+                "isOpen": true,
+                "aggregatedDiscountInfoV2": {},
+                "type": "F",
+                "badgesV2": {
+                    "entityBadges": {
+                        "imageBased": {},
+                        "textBased": {},
+                        "textExtendedBadges": {
+                            "badgeObject": [
+                                {
+                                    "attributes": {
+                                        "description": "",
+                                        "fontColor": "#7E808C",
+                                        "iconId": "guiltfree/GF_Logo_android_3x",
+                                        "shortDescription": "options available"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "differentiatedUi": {
+                    "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                    "differentiatedUiMediaDetails": {
+                        "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                        "lottie": {},
+                        "video": {}
+                    }
+                },
+                "reviewsSummary": {},
+                "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                "restaurantOfferPresentationInfo": {}
+            },
+            "analytics": {},
+            "cta": {
+                "link": "https://www.swiggy.com/restaurants/banana-leaf-garia-kolkata-71077",
+                "type": "WEBLINK"
+            }
+        },
+        {
+            "info": {
+                "id": "30170",
+                "name": "Hindusthan Sweets",
+                "cloudinaryImageId": "uxnfklsaehf8tanbwqb5",
+                "locality": "Besides 8B bus stop",
+                "areaName": "Jadavpur",
+                "costForTwo": "₹200 for two",
+                "cuisines": [
+                    "Snacks"
+                ],
+                "avgRating": 4.3,
+                "veg": true,
+                "feeDetails": {
+                    "restaurantId": "30170",
+                    "fees": [
+                        {
+                            "name": "BASE_DISTANCE",
+                            "fee": 5700
+                        },
+                        {
+                            "name": "BASE_TIME"
+                        },
+                        {
+                            "name": "ANCILLARY_SURGE_FEE"
+                        }
+                    ],
+                    "totalFee": 5700
+                },
+                "parentId": "3371",
+                "avgRatingString": "4.3",
+                "totalRatingsString": "10K+",
+                "sla": {
+                    "deliveryTime": 37,
+                    "lastMileTravel": 5,
+                    "serviceability": "SERVICEABLE",
+                    "slaString": "37 mins",
+                    "lastMileTravelString": "5.0 km",
+                    "iconType": "ICON_TYPE_EMPTY"
+                },
+                "availability": {
+                    "nextCloseTime": "2023-12-08 22:00:00",
+                    "opened": true
+                },
+                "badges": {
+                    "imageBadges": [
+                        {
+                            "imageId": "v1695133679/badges/Pure_Veg111.png",
+                            "description": "pureveg"
+                        }
+                    ]
+                },
+                "isOpen": true,
+                "type": "F",
+                "badgesV2": {
+                    "entityBadges": {
+                        "imageBased": {
+                            "badgeObject": [
+                                {
+                                    "attributes": {
+                                        "description": "pureveg",
+                                        "imageId": "v1695133679/badges/Pure_Veg111.png"
+                                    }
+                                }
+                            ]
+                        },
+                        "textBased": {},
+                        "textExtendedBadges": {}
+                    }
+                },
+                "aggregatedDiscountInfoV3": {
+                    "header": "30% OFF",
+                    "subHeader": "UPTO ₹75"
+                },
+                "differentiatedUi": {
+                    "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                    "differentiatedUiMediaDetails": {
+                        "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                        "lottie": {},
+                        "video": {}
+                    }
+                },
+                "reviewsSummary": {},
+                "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                "restaurantOfferPresentationInfo": {}
+            },
+            "analytics": {},
+            "cta": {
+                "link": "https://www.swiggy.com/restaurants/hindusthan-sweets-besides-8b-bus-stop-jadavpur-kolkata-30170",
+                "type": "WEBLINK"
+            }
+        },
+        {
+            "info": {
+                "id": "285424",
+                "name": "Kathleen",
+                "cloudinaryImageId": "e40c5b9a0187a3666d7936275ebf020a",
+                "locality": "Garia",
+                "areaName": "Rajpur Sonarpur",
+                "costForTwo": "₹200 for two",
+                "cuisines": [
+                    "Desserts",
+                    "Bakery",
+                    "Snacks",
+                    "Continental"
+                ],
+                "avgRating": 3.8,
+                "feeDetails": {
+                    "restaurantId": "285424",
+                    "fees": [
+                        {
+                            "name": "BASE_DISTANCE",
+                            "fee": 3700
+                        },
+                        {
+                            "name": "BASE_TIME"
+                        },
+                        {
+                            "name": "ANCILLARY_SURGE_FEE"
+                        }
+                    ],
+                    "totalFee": 3700
+                },
+                "parentId": "10674",
+                "avgRatingString": "3.8",
+                "totalRatingsString": "1K+",
+                "sla": {
+                    "deliveryTime": 15,
+                    "lastMileTravel": 0.9,
+                    "serviceability": "SERVICEABLE",
+                    "slaString": "15 mins",
+                    "lastMileTravelString": "0.9 km",
+                    "iconType": "ICON_TYPE_EMPTY"
+                },
+                "availability": {
+                    "nextCloseTime": "2023-12-08 21:00:00",
+                    "opened": true
+                },
+                "badges": {},
+                "isOpen": true,
+                "type": "F",
+                "badgesV2": {
+                    "entityBadges": {
+                        "imageBased": {},
+                        "textBased": {},
+                        "textExtendedBadges": {}
+                    }
+                },
+                "aggregatedDiscountInfoV3": {
+                    "header": "10% OFF",
+                    "subHeader": "UPTO ₹40"
+                },
+                "differentiatedUi": {
+                    "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                    "differentiatedUiMediaDetails": {
+                        "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                        "lottie": {},
+                        "video": {}
+                    }
+                },
+                "reviewsSummary": {},
+                "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                "restaurantOfferPresentationInfo": {}
+            },
+            "analytics": {},
+            "cta": {
+                "link": "https://www.swiggy.com/restaurants/kathleen-garia-rajpur-sonarpur-kolkata-285424",
+                "type": "WEBLINK"
+            }
+        },
+        {
+            "info": {
+                "id": "355772",
+                "name": "Grameen Kulfi",
+                "cloudinaryImageId": "kaj9fga8axqaehim5nez",
+                "locality": "Poddar Nagar",
+                "areaName": "Jadavpur",
+                "costForTwo": "₹120 for two",
+                "cuisines": [
+                    "Ice Cream",
+                    "Desserts"
+                ],
+                "avgRating": 4.8,
+                "veg": true,
+                "feeDetails": {
+                    "restaurantId": "355772",
+                    "fees": [
+                        {
+                            "name": "BASE_DISTANCE",
+                            "fee": 5700
+                        },
+                        {
+                            "name": "BASE_TIME"
+                        },
+                        {
+                            "name": "ANCILLARY_SURGE_FEE"
+                        }
+                    ],
+                    "totalFee": 5700
+                },
+                "parentId": "12175",
+                "avgRatingString": "4.8",
+                "totalRatingsString": "1K+",
+                "sla": {
+                    "deliveryTime": 32,
+                    "lastMileTravel": 5.6,
+                    "serviceability": "SERVICEABLE",
+                    "slaString": "32 mins",
+                    "lastMileTravelString": "5.6 km",
+                    "iconType": "ICON_TYPE_EMPTY"
+                },
+                "availability": {
+                    "nextCloseTime": "2023-12-09 00:00:00",
+                    "opened": true
+                },
+                "badges": {},
+                "isOpen": true,
+                "type": "F",
+                "badgesV2": {
+                    "entityBadges": {
+                        "imageBased": {},
+                        "textBased": {},
+                        "textExtendedBadges": {}
+                    }
+                },
+                "aggregatedDiscountInfoV3": {
+                    "header": "60% OFF",
+                    "subHeader": "UPTO ₹120"
+                },
+                "differentiatedUi": {
+                    "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                    "differentiatedUiMediaDetails": {
+                        "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                        "lottie": {},
+                        "video": {}
+                    }
+                },
+                "reviewsSummary": {},
+                "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                "restaurantOfferPresentationInfo": {}
+            },
+            "analytics": {},
+            "cta": {
+                "link": "https://www.swiggy.com/restaurants/grameen-kulfi-poddar-nagar-jadavpur-kolkata-355772",
+                "type": "WEBLINK"
+            }
+        },
+        {
+            "info": {
+                "id": "51098",
+                "name": "Chowman",
+                "cloudinaryImageId": "06d12ec700e4118d159fab6c3a7256dd",
+                "locality": "Garia Garden",
+                "areaName": "Garia",
+                "costForTwo": "₹700 for two",
+                "cuisines": [
+                    "Chinese",
+                    "Asian",
+                    "Thai",
+                    "Oriental",
+                    "Burmese",
+                    "Tibetan"
+                ],
+                "avgRating": 4.4,
+                "feeDetails": {
+                    "restaurantId": "51098",
+                    "fees": [
+                        {
+                            "name": "BASE_DISTANCE",
+                            "fee": 4400
+                        },
+                        {
+                            "name": "BASE_TIME"
+                        },
+                        {
+                            "name": "ANCILLARY_SURGE_FEE"
+                        }
+                    ],
+                    "totalFee": 4400
+                },
+                "parentId": "266",
+                "avgRatingString": "4.4",
+                "totalRatingsString": "10K+",
+                "sla": {
+                    "deliveryTime": 23,
+                    "lastMileTravel": 0.9,
+                    "serviceability": "SERVICEABLE",
+                    "slaString": "23 mins",
+                    "lastMileTravelString": "0.9 km",
+                    "iconType": "ICON_TYPE_EMPTY"
+                },
+                "availability": {
+                    "nextCloseTime": "2023-12-08 22:30:00",
+                    "opened": true
+                },
+                "badges": {},
+                "isOpen": true,
+                "type": "F",
+                "badgesV2": {
+                    "entityBadges": {
+                        "imageBased": {},
+                        "textBased": {},
+                        "textExtendedBadges": {}
+                    }
+                },
+                "aggregatedDiscountInfoV3": {
+                    "header": "50% OFF",
+                    "subHeader": "UPTO ₹100"
+                },
+                "differentiatedUi": {
+                    "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                    "differentiatedUiMediaDetails": {
+                        "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                        "lottie": {},
+                        "video": {}
+                    }
+                },
+                "reviewsSummary": {},
+                "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                "restaurantOfferPresentationInfo": {}
+            },
+            "analytics": {},
+            "cta": {
+                "link": "https://www.swiggy.com/restaurants/chowman-garden-garia-kolkata-51098",
+                "type": "WEBLINK"
+            }
+        },
+        {
+            "info": {
+                "id": "349069",
+                "name": "Baskin Robbins - Ice Cream Desserts",
+                "cloudinaryImageId": "85ccae4e3576f9330af102c46ca85395",
+                "locality": "Eastern Metropolitan Bypass Link Rd",
+                "areaName": "Patuli",
+                "costForTwo": "₹250 for two",
+                "cuisines": [
+                    "Desserts",
+                    "Ice Cream"
+                ],
+                "avgRating": 4.7,
+                "veg": true,
+                "feeDetails": {
+                    "restaurantId": "349069",
+                    "fees": [
+                        {
+                            "name": "BASE_DISTANCE",
+                            "fee": 3700
+                        },
+                        {
+                            "name": "BASE_TIME"
+                        },
+                        {
+                            "name": "ANCILLARY_SURGE_FEE"
+                        }
+                    ],
+                    "totalFee": 3700
+                },
+                "parentId": "5588",
+                "avgRatingString": "4.7",
+                "totalRatingsString": "1K+",
+                "sla": {
+                    "deliveryTime": 21,
+                    "lastMileTravel": 1.8,
+                    "serviceability": "SERVICEABLE",
+                    "slaString": "21 mins",
+                    "lastMileTravelString": "1.8 km",
+                    "iconType": "ICON_TYPE_EMPTY"
+                },
+                "availability": {
+                    "nextCloseTime": "2023-12-08 23:00:00",
+                    "opened": true
+                },
+                "badges": {},
+                "isOpen": true,
+                "type": "F",
+                "badgesV2": {
+                    "entityBadges": {
+                        "imageBased": {},
+                        "textBased": {},
+                        "textExtendedBadges": {}
+                    }
+                },
+                "aggregatedDiscountInfoV3": {
+                    "header": "30% OFF",
+                    "subHeader": "UPTO ₹75"
+                },
+                "differentiatedUi": {
+                    "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                    "differentiatedUiMediaDetails": {
+                        "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                        "lottie": {},
+                        "video": {}
+                    }
+                },
+                "reviewsSummary": {},
+                "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                "restaurantOfferPresentationInfo": {}
+            },
+            "analytics": {},
+            "cta": {
+                "link": "https://www.swiggy.com/restaurants/baskin-robbins-ice-cream-desserts-eastern-metropolitan-bypass-link-rd-patuli-kolkata-349069",
+                "type": "WEBLINK"
+            }
+        },
+        {
+            "info": {
+                "id": "326891",
+                "name": "Behrouz Biryani",
+                "cloudinaryImageId": "89fccaa76f2f760e2742b9e53d32bb69",
+                "locality": "ANUKUL CHANDRA ROAD",
+                "areaName": "Garia",
+                "costForTwo": "₹500 for two",
+                "cuisines": [
+                    "Biryani",
+                    "Mughlai",
+                    "North Indian",
+                    "Lucknowi",
+                    "Hyderabadi",
+                    "Kebabs",
+                    "Desserts",
+                    "Beverages"
+                ],
+                "avgRating": 4.3,
+                "feeDetails": {
+                    "restaurantId": "326891",
+                    "fees": [
+                        {
+                            "name": "BASE_DISTANCE",
+                            "fee": 4400
+                        },
+                        {
+                            "name": "BASE_TIME"
+                        },
+                        {
+                            "name": "ANCILLARY_SURGE_FEE"
+                        }
+                    ],
+                    "totalFee": 4400
+                },
+                "parentId": "1803",
+                "avgRatingString": "4.3",
+                "totalRatingsString": "1K+",
+                "sla": {
+                    "deliveryTime": 28,
+                    "lastMileTravel": 2.1,
+                    "serviceability": "SERVICEABLE",
+                    "slaString": "28 mins",
+                    "lastMileTravelString": "2.1 km",
+                    "iconType": "ICON_TYPE_EMPTY"
+                },
+                "availability": {
+                    "nextCloseTime": "2023-12-08 23:59:00",
+                    "opened": true
+                },
+                "badges": {
+                    "imageBadges": [
+                        {
+                            "imageId": "v1669879258/GFF_logo_new_xbycg6.png",
+                            "description": "gourmet"
+                        }
+                    ]
+                },
+                "isOpen": true,
+                "type": "F",
+                "badgesV2": {
+                    "entityBadges": {
+                        "imageBased": {
+                            "badgeObject": [
+                                {
+                                    "attributes": {
+                                        "description": "gourmet",
+                                        "imageId": "v1669879258/GFF_logo_new_xbycg6.png"
+                                    }
+                                }
+                            ]
+                        },
+                        "textBased": {},
+                        "textExtendedBadges": {}
+                    }
+                },
+                "aggregatedDiscountInfoV3": {
+                    "header": "60% OFF",
+                    "subHeader": "UPTO ₹120"
+                },
+                "differentiatedUi": {
+                    "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                    "differentiatedUiMediaDetails": {
+                        "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                        "lottie": {},
+                        "video": {}
+                    }
+                },
+                "reviewsSummary": {},
+                "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                "restaurantOfferPresentationInfo": {}
+            },
+            "analytics": {},
+            "cta": {
+                "link": "https://www.swiggy.com/restaurants/behrouz-biryani-anukul-chandra-road-garia-kolkata-326891",
+                "type": "WEBLINK"
+            }
+        },
+        {
+            "info": {
+                "id": "326890",
+                "name": "Faasos - Wraps & Rolls",
+                "cloudinaryImageId": "af33b81798b11deba338e94b7585d348",
+                "locality": "ANUKUL CHANDRA ROAD",
+                "areaName": "Garia",
+                "costForTwo": "₹200 for two",
+                "cuisines": [
+                    "Kebabs",
+                    "Fast Food",
+                    "Snacks",
+                    "North Indian",
+                    "American",
+                    "Healthy Food",
+                    "Desserts",
+                    "Beverages"
+                ],
+                "avgRating": 4.3,
+                "feeDetails": {
+                    "restaurantId": "326890",
+                    "fees": [
+                        {
+                            "name": "BASE_DISTANCE",
+                            "fee": 3700
+                        },
+                        {
+                            "name": "BASE_TIME"
+                        },
+                        {
+                            "name": "ANCILLARY_SURGE_FEE"
+                        }
+                    ],
+                    "totalFee": 3700
+                },
+                "parentId": "21809",
+                "avgRatingString": "4.3",
+                "totalRatingsString": "1K+",
+                "sla": {
+                    "deliveryTime": 28,
+                    "lastMileTravel": 2.1,
+                    "serviceability": "SERVICEABLE",
+                    "slaString": "28 mins",
+                    "lastMileTravelString": "2.1 km",
+                    "iconType": "ICON_TYPE_EMPTY"
+                },
+                "availability": {
+                    "nextCloseTime": "2023-12-08 23:59:00",
+                    "opened": true
+                },
+                "badges": {
+                    "textExtendedBadges": [
+                        {
+                            "iconId": "guiltfree/GF_Logo_android_3x",
+                            "shortDescription": "options available",
+                            "fontColor": "#7E808C"
+                        }
+                    ]
+                },
+                "isOpen": true,
+                "type": "F",
+                "badgesV2": {
+                    "entityBadges": {
+                        "imageBased": {},
+                        "textBased": {},
+                        "textExtendedBadges": {
+                            "badgeObject": [
+                                {
+                                    "attributes": {
+                                        "description": "",
+                                        "fontColor": "#7E808C",
+                                        "iconId": "guiltfree/GF_Logo_android_3x",
+                                        "shortDescription": "options available"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "aggregatedDiscountInfoV3": {
+                    "header": "15% OFF",
+                    "subHeader": "ABOVE ₹1000",
+                    "discountTag": "FLAT DEAL"
+                },
+                "differentiatedUi": {
+                    "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                    "differentiatedUiMediaDetails": {
+                        "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                        "lottie": {},
+                        "video": {}
+                    }
+                },
+                "reviewsSummary": {},
+                "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                "restaurantOfferPresentationInfo": {}
+            },
+            "analytics": {},
+            "cta": {
+                "link": "https://www.swiggy.com/restaurants/faasos-wraps-and-rolls-anukul-chandra-road-garia-kolkata-326890",
+                "type": "WEBLINK"
+            }
+        }
+    ]
+}

@@ -1,38 +1,97 @@
 import React from "react";
 import * as ReactDOM from "react-dom";
+import myData from "./data.json";
 
-// React Element
-let header = (
-  <h1
-    id="head"
-    style={{
-      color: "white",
-      background: "green",
-      fontFamily: "cursive",
-      paddingLeft: "10px",
-    }}
-  >
-    This is heading created by jsx 🚀
-  </h1>
-);
-//React component ( arrow function which returns react element ())
+//data is an object type
+const data = myData.restaurants;
+const Header = () => {
+  return (
+    <div className="header">
+      <div className="image">
+        <img
+          src="https://cdn.dribbble.com/users/1635051/screenshots/4291569/socio_curry_logo-01.png"
+          alt=""
+        />
+      </div>
 
-let Header = () => (
-  <div>
-    <h1
-      id="head"
-      style={{
-        color: "white",
-        background: "green",
-        fontFamily: "cursive",
-        paddingLeft: "10px",
-      }}
+      <div className="items">
+        <ul>
+          <li>Home </li>
+          <li>About </li>
+          <li>Cart </li>
+        </ul>
+      </div>
+    </div>
+  );
+};
+const Search = () => {
+  return (
+    <div
+      className="search-div"
+      style={{ width: "150px", height: "50px", display: "flex" }}
     >
-      This is heading created by jsx 🚀
-    </h1>
-  </div>
-);
+      <input type="text" />
+      <button>Search</button>
+    </div>
+  );
+};
 
-let root = ReactDOM.createRoot(document.getElementById("root")); // assuming you have a div with id 'root' as the target container
-root.render(<Header2 />);
-import React from "react";
+const Card = (props) => {
+  const { resData } = props;
+  console.log(resData.info.name);
+  return (
+    <div className="card">
+      <div className="restro-image">
+        <img
+          src={
+            "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/" +
+            resData.info.cloudinaryImageId
+          }
+          alt=""
+        />
+      </div>
+      <div className="info">
+        <h1>{resData.info.name}</h1>
+        <div className="rating  ">
+          <h3>Rating: {resData.info.avgRating}</h3>
+          <h3>Time :{resData.info.sla.deliveryTime} Mins</h3>
+        </div>
+        <div className="cusines">
+          <p>{resData.info.cuisines.join(", ")}</p>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+const Restro = () => {
+  return (
+    <div className="restro">
+      {/* //use map funtion herre  */}
+
+      {data.map((restro) => (
+        <Card resData={restro} />
+      ))}
+    </div>
+  );
+};
+const Body = () => {
+  return (
+    <>
+      <Search />
+      <Restro />
+    </>
+  );
+};
+
+const AppLayout = () => {
+  return (
+    <>
+      <Header />
+      <Body />
+    </>
+  );
+};
+
+let root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(<AppLayout />);
