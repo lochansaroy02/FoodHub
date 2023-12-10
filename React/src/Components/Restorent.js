@@ -42,6 +42,7 @@ const Restorent = () => {
         fetchData()
     }, []);
 
+
     const fetchData = async () => {
         let data = await fetch(API_URL);
         const json = await data.json();
