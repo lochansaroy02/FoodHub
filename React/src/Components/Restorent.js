@@ -1,9 +1,8 @@
 import { CDN_URL } from "../utils/links";
-import myData from '../../data.json';
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { API_URL } from "../utils/links";
+import Shimmer from "./Shimmer";
 
-
-const dataList = myData.restaurants;//its an array 
 const Card = (props) => {
     const { resData } = props;
     return (
@@ -27,37 +26,92 @@ const Card = (props) => {
                 </div>
             </div>
         </div>
+
     );
 };
+
+
+
+
 const Restorent = () => {
-    const [data, setMyData] = useState(dataList);
-    return (
+    const [data, setData] = useState([]);
+    const [filteredData, setFilteredData] = useState([]);
+
+
+    useEffect(() => {
+        fetchData()
+    }, []);
+
+    const fetchData = async () => {
+        let data = await fetch(API_URL);
+        const json = await data.json();
+        const Data = json?.data?.cards[2]?.card?.card?.gridElements?.infoWithStyle?.restaurants;
+        setData(Data)
+        setFilteredData(Data)
+
+    }
+    const [input, setInput] = useState("");
+
+
+
+    return data.length === 0 ? <Shimmer /> : (
         <>
+
+
             <div style={
                 {
                     padding: "20px",
                     display: "flex",
                     justifyContent: "center",
+                    flexDirection: "column",
                     gap: "8px"
                 }
             }>
 
+                <div className="search ">
+                    <input type="text" value={input} onChange={
+                        (e) => {
+                            setInput(e.target.value);
+                        }
+                    } />
+                    <button
+                        onClick={() => {
+                            const filterData = data.filter((rest) =>
+                                rest.info.name.toLowerCase().includes(input.toLowerCase())
+                            )
+                            setFilteredData(filterData)
 
-                <button onClick={() => {
-                    let filteredList = data.filter((rest) => rest.info.avgRating > 4.5)
-                    setMyData(filteredList)
-                }}>Top Rated</button>
-                <button onClick={() => {
-                    let filteredList = data.filter((rest) => rest.info.sla.deliveryTime < 20)
-                    setMyData(filteredList)
-                }}>Fast Delivery </button>
-                <button onClick={() => {
-                    let filteredList = data.filter((rest) => rest.info.veg == true)
-                    setMyData(filteredList)
-                }}>Veg </button>
+                        }
+                        }
+
+                    >search</button>
+                </div>
+
+                <div style={{
+                    display: "flex",
+                    justifyContent: "center",
+                    gap: "5px"
+                }}>
+
+
+                    <button onClick={() => {
+                        let filteredList = data.filter((rest) => rest.info.avgRating > 4.5)
+                        setFilteredData(filteredList)
+                    }}>Top Rated</button>
+                    <button onClick={() => {
+                        let filteredList = data.filter((rest) => rest.info.sla.deliveryTime < 20)
+                        setFilteredData(filteredList)
+                    }}>Fast Delivery </button>
+                    <button onClick={() => {
+                        let filteredList = data.filter((rest) => rest.info.veg == true)
+                        setFilteredData(filteredList)
+                    }}>Veg </button>
+                </div>
             </div>
+
+
             <div className="restro">
-                {data.map((restro) => (
+                {filteredData.map((restro) => (
                     <Card key={restro.info.id} resData={restro} />
                 ))}
             </div>
