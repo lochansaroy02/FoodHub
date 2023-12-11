@@ -2,6 +2,7 @@ import { CDN_URL } from "../utils/links";
 import { useState, useEffect } from "react";
 import { API_URL } from "../utils/links";
 import Shimmer from "./Shimmer";
+import { Link } from "react-router-dom";
 
 const Card = (props) => {
     const { resData } = props;
@@ -34,7 +35,7 @@ const Card = (props) => {
 
 
 const Restorent = () => {
-    const [data, setData] = useState([]);
+    const [data, setData] = useState([API_URL]);
     const [filteredData, setFilteredData] = useState([]);
 
 
@@ -46,11 +47,15 @@ const Restorent = () => {
     const fetchData = async () => {
         let data = await fetch(API_URL);
         const json = await data.json();
+        // const Data = json?.data?.cards[2]?.card?.card?.itemCard;
         const Data = json?.data?.cards[2]?.card?.card?.gridElements?.infoWithStyle?.restaurants;
         setData(Data)
         setFilteredData(Data)
 
+
     }
+
+
     const [input, setInput] = useState("");
 
 
@@ -84,7 +89,6 @@ const Restorent = () => {
 
                         }
                         }
-
                     >search</button>
                 </div>
 
@@ -113,7 +117,9 @@ const Restorent = () => {
 
             <div className="restro">
                 {filteredData.map((restro) => (
-                    <Card key={restro.info.id} resData={restro} />
+                    <Link key={restro.info.id} to={"rest/" + restro.info.id}>
+                        <Card resData={restro} />
+                    </Link>
                 ))}
             </div>
         </>

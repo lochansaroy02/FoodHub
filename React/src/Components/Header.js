@@ -1,5 +1,9 @@
 import { LOGO_URL } from "../utils/links";
 import { useState } from "react";
+import { Link } from "react-router-dom";
+import Contact from "./Contact";
+import About from "./About";
+import { Search } from "react-router-dom";
 
 const Header = () => {
 
@@ -7,17 +11,20 @@ const Header = () => {
     return (
         <div className="header">
             <div className="image">
-                <img
-                    src={LOGO_URL}
-                    alt=""
-                />
+                <Link to="/">
+                    <img
+                        src={LOGO_URL}
+                        alt=""
+                    />
+                </Link>
             </div>
 
             <div className="items">
                 <ul>
-                    <li>Home </li>
-                    <li>About </li>
-                    <li>Cart </li>
+                    
+                    <li> <Link to="/About">About</Link>   </li>
+                    <li> <Link to="/Contact">Contact</Link>   </li>
+
 
                 </ul>
                 <button onClick={() => {
