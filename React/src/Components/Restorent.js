@@ -9,9 +9,9 @@ const Card = (props) => {
 
     const { resData } = props;
     return (
-        <div className=" w-60  drop-shadow-lg border-2 border-zinc-800 hover:border-2 hover:border-gray-300  hover:shadow-xl rounded-xl m-4 h-[350] bg-zinc-800 ">
-            <div className=" h-40  " >
-                <img className="w-full h-full object-cover rounded-t-xl " src={CDN_URL + resData.info.cloudinaryImageId} />
+        <div className=" w-60  drop-shadow-lg border overflow-hidden border-zinc-800 hover:border hover:border-gray-300  hover:shadow-xl rounded-xl m-4 h-[350] bg-zinc-800 ">
+            <div className=" h-40 p-1  overflow-hidden" >
+                <img className="w-full h-full object-cover rounded-xl  hover:scale-105 transition-all duration-200" src={CDN_URL + resData.info.cloudinaryImageId} />
             </div>
 
 
@@ -73,7 +73,11 @@ const Restorent = () => {
         setFilteredData(filterData);
     }
 
-    return (
+    if (data.length === 0) {
+        return <Shimmer />
+    }
+
+    return data.length === 0 ? <Shimmer /> : (
         <>
 
 
@@ -81,7 +85,7 @@ const Restorent = () => {
             <div className="flex flex-col items-center p-4 ">
 
                 <div className="m-4">
-                    <input className="border-2 w-96 h-10  rounded-full focus:border-green-600 text-white pl-4 border-gray-300 bg-neutral-900" type="text" placeholder="Search" value={input} onChange={
+                    <input className="border w-96 h-10  rounded-full focus:border-green-600 text-white pl-4 border-gray-300 bg-neutral-900" type="text" placeholder="Search" value={input} onChange={
                         (e) => {
                             setInput(e.target.value);
                         }

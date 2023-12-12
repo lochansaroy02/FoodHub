@@ -10,8 +10,7 @@ const useData = () => {
         const json = await data.json();
         const Data = json?.data?.cards[2]?.card?.card?.gridElements?.infoWithStyle?.restaurants;
         setDATA(Data)
-        console.log(Data)
-        
+
     }
     useEffect(() => {
 

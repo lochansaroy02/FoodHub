@@ -9,7 +9,7 @@ import { useState, useEffect } from "react";
 const useMenu = (resID) => {
 
 
- 
+
     const Id = resID.id;
 
 
@@ -21,7 +21,7 @@ const useMenu = (resID) => {
         const category = json.data.cards[2].groupedCard.cardGroupMap.REGULAR;
         const setmenu = category.cards[2].card.card.itemCards;
         setMenu(setmenu)
-        console.log(setmenu)
+      
 
     }
 

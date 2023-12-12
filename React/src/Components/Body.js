@@ -6,7 +6,7 @@ import Menu from "./Menu";
 const Body = () => {
     return (
         <div className="bg-neutral-900">
-            
+
             <Restorent />
         </div>
 

@@ -15,7 +15,7 @@ const Header = () => {
     const [btn, setbtn] = useState("Login");
 
     return (
-        <div className=" drop-shadow-md flex items-center    bg-neutral-900 border-b justify-between h-">
+        <div className=" drop-shadow flex items-center    bg-neutral-900 border-b justify-between h-">
             <div className="image">
                 <Link to="/">
                     <div className="mx-6 my-1 flex items-center">
