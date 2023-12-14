@@ -14,7 +14,7 @@ FoodHub is a React-based web application that lets users explore and order food 
 
 ## Demo 🌐
 
-Check out the live demo of FoodHub [https://food-hub-lochansaroy02.vercel.app/](#) (replace with your demo link).
+Check out the live demo of FoodHub [Live Demo](https://food-hub-lochansaroy02.vercel.app/)
 
 ## Getting Started 🛠️
 
@@ -25,3 +25,10 @@ Follow these steps to set up and run the FoodHub application locally:
    ```bash
    git clone https://github.com/your-username/FoodHub.git
    cd FoodHub
+
+## Install dependencies:
+ ```bash
+   git clone https://github.com/your-username/FoodHub.git
+   cd FoodHub
+
+
