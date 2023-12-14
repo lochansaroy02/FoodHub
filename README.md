@@ -23,12 +23,13 @@ Follow these steps to set up and run the FoodHub application locally:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/FoodHub.git
-   cd FoodHub
+   git clone https://github.com/lochansaroy02/FoodHub.git
+   cd FoodHub/React
+   
+### Run Locally:
+```bash
+    npm start
 
-## Install dependencies:
- ```bash
-   git clone https://github.com/your-username/FoodHub.git
-   cd FoodHub
+
 
 
