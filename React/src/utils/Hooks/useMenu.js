@@ -20,10 +20,20 @@ const useMenu = (resID) => {
         const json = await data.json();
         const category = json.data.cards[2].groupedCard.cardGroupMap.REGULAR;
         const setmenu = category.cards[2].card.card.itemCards;
-        setMenu(setmenu)
-      
+
+        const itemcard = category.cards;
+        const typeString = "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory"
+
+
+        const type = itemcard.filter((item) => item.card?.card?.["@type"] === typeString)
+        setMenu(type)
+
+
+
+
 
     }
+
 
     useEffect(() => {
         fetchMenu()

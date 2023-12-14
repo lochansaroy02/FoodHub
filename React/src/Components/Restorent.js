@@ -73,18 +73,16 @@ const Restorent = () => {
         setFilteredData(filterData);
     }
 
-    if (data.length === 0) {
-        return <Shimmer />
-    }
 
-    return data.length === 0 ? <Shimmer /> : (
+
+    return data.length == 0 ? <Shimmer /> : (
         <>
 
 
 
-            <div className="flex flex-col items-center p-4 ">
+            <div className="flex flex-col  p-4 sm:items-center  md:items-center ">
 
-                <div className="m-4">
+                <div className=" sm:m-4 m-4 ">
                     <input className="border w-96 h-10  rounded-full focus:border-green-600 text-white pl-4 border-gray-300 bg-neutral-900" type="text" placeholder="Search" value={input} onChange={
                         (e) => {
                             setInput(e.target.value);
@@ -99,7 +97,7 @@ const Restorent = () => {
 
                         }
                         }
-                    ><h2 className="mx-2 font-open text-white"><span></span> </h2></button>
+                    ><h2 className="mx-2 font-open text-white">  </h2></button>
                 </div>
 
                 <div className=" w-full flex  gap-6" >
