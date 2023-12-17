@@ -5,7 +5,7 @@ import Shimmer from "./Shimmer";
 const Body = () => {
 
     return (
-        <div className=" bg-gray-950 ">
+        <div className=" bg-neutral-900 ">
             <Restorent />
             {/* <Shimmer /> */}
         </div>

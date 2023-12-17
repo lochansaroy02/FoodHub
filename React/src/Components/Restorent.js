@@ -90,7 +90,7 @@ const Restorent = () => {
                         }}>Top Rated</button>
                     <button className=" bg-gray-700 hover:bg-gray-800 px-2 py-1 rounded-lg text-white "
                         onClick={() => {
-                            let filteredList = data.filter((rest) => rest.info.sla.deliveryTime < 20)
+                            let filteredList = data.filter((rest) => rest.info.sla.deliveryTime < 30)
                             setFilteredData(filteredList)
                         }}>Fast Delivery </button>
                     <button className=" bg-gray-700 hover:bg-gray-800 px-2 py-1 rounded-lg text-white "
