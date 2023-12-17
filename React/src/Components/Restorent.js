@@ -4,8 +4,8 @@ import { API_URL } from "../utils/links";
 import Shimmer from "./Shimmer";
 import { Link } from "react-router-dom";
 import Card from "./Card";
-import { resData } from "../utils/resData";
-import { menuData } from "../utils/menuData";
+
+
 
 
 
@@ -19,7 +19,7 @@ const Restorent = () => {
 
 
 
-    const [data, setData] = useState(API_URL);
+    const [data, setData] = useState([]);
     const [filteredData, setFilteredData] = useState([]);
     // console.log(menuData)
 
@@ -36,7 +36,7 @@ const Restorent = () => {
 
     }
 
- 
+
 
 
     useEffect(() => {

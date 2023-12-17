@@ -10,7 +10,7 @@ const AccBody = ({ items }) => {
 
 
 
-                    <div className=" border-b  ">
+                    <div className=" border-b   " key={item.name}>
 
                         <div className="sm: flex flex-row-reverse ">
 

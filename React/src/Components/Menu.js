@@ -3,46 +3,60 @@ import useData from "../utils/Hooks/useData";
 import useMenu from "../utils/Hooks/useMenu";
 import MenuCategory from "./MenuCategory";
 import { useState } from 'react';
-// import { menu } from '../utils/menu';
+import { useParams } from 'react-router-dom';
 
 
 
 const Menu = () => {
 
 
+
+
     const resID = useParams();
     const DATA = useData();
     const menu = useMenu(resID);
-
-    const MENU = menu;
-
-    console.log(MENU)
-
-
-
-    const Info = DATA.map((item) => item.info)
-
-
-    // console.log(Info.filter((item)=> ))
-    const DataArr = Info.filter((item) => item.id === resID.id)
-    // const { name, id, cuisine } = DataArr[0]
-
-
-
-
+    const dataArr = DATA.filter((item) => item.info.id === resID.id)
+    console.log(dataArr[0])
     const [showIndex, setShowIndex] = useState(null);
 
-
-
     return (
-        <div>
-            <div>
+        <div className=' items-center'>
+
+            <div className=" flex justify-center">
+                <div className='  mb-2 bg-neutral-800 w-1/2  rounded-xl mt-2 p-4 h-full'>
+                    {dataArr.map((item) =>
+
+                        <div className='flex flex-col items-center '>
+
+
+                            <h1 className='font-open text-3xl  p-2 '>
+
+                                {item.info.name}
+                            </h1>
+
+                            <div className="  gap-8">
+                                <div className='flex  gap-8'>
+
+                                    <h2 className='font-open text-lg '>{item.info.locality}, {item.info.areaName}</h2>
+                                    <h2 className='font-open text-lg '> {item.info.avgRating}</h2>
+                                </div>
+                                <p> {item.info.cuisines.toString()}</p>
+                                {/* <h2 className='font-open text-lg '> {item.info.avgRating}</h2> */}
+                            </div>
+                        </div>
+                    )}
+                </div>
+
 
             </div>
 
-            <div>
+
+
+
+            <div className=' flex flex-col '>
                 {
                     menu.map((item, index) => <MenuCategory
+                        key={item.name}
                         showitems={
 
                             index === showIndex ? true : false
