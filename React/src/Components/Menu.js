@@ -3,6 +3,7 @@ import useData from "../utils/Hooks/useData";
 import useMenu from "../utils/Hooks/useMenu";
 import MenuCategory from "./MenuCategory";
 import { useState } from 'react';
+// import { menu } from '../utils/menu';
 
 
 
@@ -12,6 +13,10 @@ const Menu = () => {
     const resID = useParams();
     const DATA = useData();
     const menu = useMenu(resID);
+
+    const MENU = menu;
+
+    console.log(MENU)
 
 
 

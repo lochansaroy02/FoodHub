@@ -1,4 +1,4 @@
-{
+export const menuData = {
     "statusCode": 0,
     "data": {
         "statusMessage": "done successfully",
