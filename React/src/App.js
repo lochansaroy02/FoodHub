@@ -3,16 +3,20 @@ import * as ReactDOM from "react-dom/client";
 import Header from './Components/Header'
 import Body from "./Components/Body";
 import About from "./Components/About";
-import Contact from "./Components/Contact";
 import Menu from "./Components/Menu";
+import Cart from "./Components/Cart"
 import { Outlet, createBrowserRouter } from "react-router-dom";
 import { RouterProvider } from "react-router-dom";
+import { Provider } from "react-redux";
+import Store from "./utils/Store";
 
 const App = () => {
   return (
     <>
+    <Provider store={Store}>
       <Header />
       <Outlet />
+    </Provider>
 
     </>
   );
@@ -28,8 +32,8 @@ const routedData = createBrowserRouter([
         element: <About />
       },
       {
-        path: "contact",
-        element: <Contact />
+        path: "Cart",
+        element: <Cart />
       },
       {
         path: "/",

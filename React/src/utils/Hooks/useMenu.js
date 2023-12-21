@@ -18,7 +18,7 @@ const useMenu = (resID) => {
     const fetchMenu = async () => {
         let data = await fetch(MENU_API + Id);
         const json = await data.json();
-        const category = json.data.cards[2].groupedCard.cardGroupMap.REGULAR;
+        const category = json?.data?.cards[2]?.groupedCard?.cardGroupMap?.REGULAR;
 
         setMenu(category)
 

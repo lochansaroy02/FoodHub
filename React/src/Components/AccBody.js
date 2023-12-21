@@ -1,7 +1,13 @@
+import { addItem } from "../utils/cartSlice";
 import { CDN_URL } from "../utils/links";
+import { useDispatch } from "react-redux";
 
-const AccBody = ({ items }) => {
-    console.log(items)
+const AccBody = ({ items  }) => {
+    const dispatch = useDispatch()
+
+    const handleAddItmes = (item) => {
+        dispatch(addItem(item))
+    }
     return (
         <div className="w-1/2 m-auto " >
             <ul >
@@ -31,7 +37,9 @@ const AccBody = ({ items }) => {
 
                                     </div>
                                     <div className=" ">
-                                        <button className="bg-zinc-500 text-slate-100 px-4 py-2 rounded-lg">Add</button>
+                                        <button className="bg-zinc-500 text-slate-100 px-4 py-2 rounded-lg" onClick={
+                                            () => handleAddItmes(item)
+                                        }>Add +</button>
                                     </div>
 
 

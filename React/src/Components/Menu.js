@@ -16,7 +16,7 @@ const Menu = () => {
     const DATA = useData();
     const menu = useMenu(resID);
     const dataArr = DATA.filter((item) => item.info.id === resID.id)
-    console.log(dataArr[0])
+
     const [showIndex, setShowIndex] = useState(null);
 
     return (
