@@ -6,6 +6,7 @@ const AccBody = ({ items }) => {
     const dispatch = useDispatch()
 
     const handleAddItmes = (item) => {
+        
         dispatch(addItem(item))
     }
     return (

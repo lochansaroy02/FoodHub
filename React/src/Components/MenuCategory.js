@@ -1,7 +1,7 @@
 
 import { useState } from "react";
 import AccBody from "./AccBody";
-import { CDN_URL } from "../utils/links";
+import { FaArrowDown } from "react-icons/fa6";
 
 
 const MenuCategory = ({ data, showitems, setShowIndex }) => {
@@ -17,10 +17,14 @@ const MenuCategory = ({ data, showitems, setShowIndex }) => {
         <>
             <div >
                 <div className="" onClick={handelclick}  >
-                    <div>
-                        <h1 className="text-slate-200 bg-zinc-800 border-b flex justify-center w-1/2 m-auto h-16 px-4 text-2xl py-2  cursor-pointer">
-                            {data.title}
-                        </h1>
+                    <div className="">
+                        <div className="text-slate-200 bg-zinc-800 border-b flex justify-between  w-1/2 m-auto h-16 px-6 text-lg  py-2  cursor-pointer">
+
+                            <h2 className="">
+                                {data.title}
+                            </h2>
+                            <FaArrowDown />
+                        </div>
 
                     </div>
                 </div>

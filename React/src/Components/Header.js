@@ -9,7 +9,6 @@ import useStatus from "../utils/Hooks/useStatus";
 import { useSelector } from "react-redux";
 
 
-
 const Header = () => {
     const cartItems = useSelector((store) => store.cart.items)
     console.log(cartItems)
@@ -34,6 +33,7 @@ const Header = () => {
                     }
                     <li className="text-slate-100 font-open hover:bg-neutral-400 p-1 rounded-md px-2"> <Link to="/Cart">Cart ({cartItems.length})</Link>   </li>
                     <li className="text-slate-100 font-open hover:bg-neutral-400 p-1 rounded-md px-2"> <Link to="/About">About</Link>   </li>
+                  
                     <li className="text-slate-100 font-open hover:bg-neutral-400 p-1 rounded-md px-2">
 
                         <button onClick={() => {

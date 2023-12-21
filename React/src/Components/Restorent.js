@@ -4,8 +4,7 @@ import { API_URL } from "../utils/links";
 import Shimmer from "./Shimmer";
 import { Link } from "react-router-dom";
 import Card from "./Card";
-
-
+import { MdOutlineSearch } from "react-icons/md";
 
 
 
@@ -62,13 +61,15 @@ const Restorent = () => {
 
             <div className="flex flex-col  p-4 sm:items-center  md:items-center ">
 
-                <div className=" sm:m-4 m-4 ">
+                <div className=" sm:m-4 m-4  flex items-center ">
                     <input className="border w-96 h-10  rounded-full focus:border-green-600 text-white pl-4 border-gray-300 bg-neutral-900" type="text" placeholder="Search" value={input} onChange={
                         (e) => {
                             setInput(e.target.value);
                         }
                     } />
-                    <button className="  text-2xl p-1 rounded-full mx-2"
+
+
+                    <button className="  text-2xl p-1 rounded-full m-4 bg-zinc-600"
                         onClick={() => {
                             const filterData = data.filter((rest) =>
                                 rest.info.name.toLowerCase().includes(input.toLowerCase())
@@ -77,10 +78,10 @@ const Restorent = () => {
 
                         }
                         }
-                    ><h2 className="mx-2 font-open text-white">  </h2></button>
+                    ><h2 className=" font-open text-white">  <  MdOutlineSearch /> </h2></button>
                 </div>
 
-                <div className=" w-full flex  gap-6" >
+                <div className=" w-full flex  gap-6  justify-center md:justify-center " >
 
 
                     <button className=" bg-gray-700 hover:bg-gray-800 px-2 py-1 rounded-lg text-white "

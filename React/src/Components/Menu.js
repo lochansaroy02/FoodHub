@@ -15,18 +15,20 @@ const Menu = () => {
     const resID = useParams();
     const DATA = useData();
     const menu = useMenu(resID);
+
     const dataArr = DATA.filter((item) => item.info.id === resID.id)
+
 
     const [showIndex, setShowIndex] = useState(null);
 
     return (
-        <div className=' items-center'>
+        <div className=' items-center '>
 
-            <div className=" flex justify-center">
+            <div className="   flex justify-center ">
                 <div className='  mb-2 bg-neutral-800 w-1/2  rounded-xl mt-2 p-4 h-full'>
                     {dataArr.map((item) =>
 
-                        <div className='flex flex-col items-center '>
+                        <div key={item.info.id} className='flex flex-col items-center '>
 
 
                             <h1 className='font-open text-3xl  p-2 '>
