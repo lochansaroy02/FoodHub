@@ -22,11 +22,11 @@ const useMenu = (resID) => {
 
         setMenu(category)
 
-        const itemcard = category.cards;
+        const itemcard = category?.cards;
         const typeString = "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory"
 
 
-        const type = itemcard.filter((item) => item.card?.card?.["@type"] === typeString)
+        const type = itemcard?.filter((item) => item.card?.card?.["@type"] === typeString)
         setMenu(type)
 
 

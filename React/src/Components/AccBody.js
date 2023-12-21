@@ -6,30 +6,30 @@ const AccBody = ({ items }) => {
     const dispatch = useDispatch()
 
     const handleAddItmes = (item) => {
-        
+
         dispatch(addItem(item))
     }
     return (
-        <div className="w-1/2 m-auto " >
+        <div className=" sm:w-1/2 w-full m-auto " >
             <ul >
 
                 {items.map((item) =>
 
 
 
-                    <div className=" border-b   " key={item.name}>
+                    <div className=" border-b  " key={item.name}>
 
                         <div className="sm: flex flex-row-reverse ">
 
 
                             <div className="flex p-2 flex-col w-9/12">
-                                <li className="p-2 text-2xl  ">{item.card.info.name}</li>
+                                <li className="p-2 text-2xl flex-wrap  ">{item.card.info.name}</li>
 
                                 <div className="flex justify-between  p-2 m-2 gap-2">
 
-                                    <div className="flex p-1 around  w-1/2  gap-2  ">
+                                    <div className="flex flex-col sm:flex-row md:flex-row p-1 around  w-1/2  gap-2  ">
 
-                                        <h2 className=" font-open p-1 bg-neutral-300 text-neutral-800 rounded-md" >
+                                        <h2 className=" text-sm  font-open p-1 bg-neutral-300 text-neutral-800 rounded-md" >
                                             Rs. {item.card.info.price / 100 || item.card.info.defaultPrice / 100}
                                         </h2>
 
@@ -43,12 +43,15 @@ const AccBody = ({ items }) => {
                                         }>Add +</button>
                                     </div>
 
-
                                 </div>
-                                <p className="p-1">
+                                <div>
 
-                                    {item.card.info.description}
-                                </p>
+                                    <p className="p-1  w-full">
+
+                                        {item.card.info.description}
+                                    </p>
+                                </div>
+
                             </div>
 
 

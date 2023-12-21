@@ -54,7 +54,7 @@ const Restorent = () => {
 
 
 
-    return data.length == 0 ? <Shimmer /> : (
+    return data?.length == 0 ? <Shimmer /> : (
         <>
 
 
@@ -62,7 +62,7 @@ const Restorent = () => {
             <div className="flex flex-col  p-4 sm:items-center  md:items-center ">
 
                 <div className=" sm:m-4 m-4  flex items-center ">
-                    <input className="border w-96 h-10  rounded-full focus:border-green-600 text-white pl-4 border-gray-300 bg-neutral-900" type="text" placeholder="Search" value={input} onChange={
+                    <input className="border w-96 h-10  rounded-full  text-white pl-4 border-gray-300 bg-neutral-900" type="text" placeholder="Search" value={input} onChange={
                         (e) => {
                             setInput(e.target.value);
                         }
@@ -81,7 +81,7 @@ const Restorent = () => {
                     ><h2 className=" font-open text-white">  <  MdOutlineSearch /> </h2></button>
                 </div>
 
-                <div className=" w-full flex  gap-6  justify-center md:justify-center " >
+                <div className=" w-full flex  gap-6 text-sm  justify-center md:justify-center " >
 
 
                     <button className=" bg-gray-700 hover:bg-gray-800 px-2 py-1 rounded-lg text-white "
@@ -103,8 +103,8 @@ const Restorent = () => {
             </div>
 
 
-            <div className="flex  justify-center flex-wrap  mr-0">
-                {filteredData.map((restro) => (
+            <div className="flex  justify-center flex-wrap w-full mr-0">
+                {filteredData?.map((restro) => (
                     <Link key={restro.info.id} to={"rest/" + restro.info.id}>
                         <Card resData={restro} />
                     </Link>

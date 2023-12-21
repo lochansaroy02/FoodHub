@@ -33,7 +33,7 @@ const Shimmer = () => {
             <div className="flex gap-2 flex-wrap justify-center ">
 
 
-                {data.map((item) =>
+                {data?.map((item) =>
                     <div className="bg-gray-400 rounded-xl  m-4 w-60 h-[300]"></div>
 
                 )}
