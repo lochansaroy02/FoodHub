@@ -28,7 +28,3 @@ Follow these steps to set up and run the FoodHub application locally:
 ### Run Locally:
 ```bash
     npm start
-
-
-
-
