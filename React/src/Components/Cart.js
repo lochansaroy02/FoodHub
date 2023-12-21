@@ -19,7 +19,7 @@ const Cart = () => {
             </div>
             <div className="w-3/4 m-auto  ">
                 {cartItems.length === 0 ? <h1 className=" text-center">Cart is empty </h1> :
-                    <AccBody items={cartItems} btnMsg={"Remove"} />
+                    <AccBody items={cartItems}  />
                 }
             </div>
 
