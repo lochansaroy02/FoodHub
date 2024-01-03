@@ -6,7 +6,7 @@ import { useState } from "react";
 
 
 const Card = (props) => {
-
+    
     const [cart, setCart] = useState(0);
     const addCart = () => {
         setCart();
@@ -40,7 +40,7 @@ const Card = (props) => {
                     <p className="text-slate-200 font-open font-thin ">{resData.info.cuisines.join(", ")}</p>
                 </div>
                 <div className=" mt-4 flex justify-center ">
-
+                    {resData.info.id}
                 </div>
             </div>
         </div>

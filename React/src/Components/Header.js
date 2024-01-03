@@ -2,7 +2,6 @@ import { LOGO_URL } from "../utils/links";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { HiOutlineMenu } from "react-icons/hi";
-import About from "./About";
 import { Search } from "react-router-dom";
 import useData from "../utils/Hooks/useData";
 import useStatus from "../utils/Hooks/useStatus";
@@ -11,7 +10,6 @@ import { useSelector } from "react-redux";
 
 const Header = () => {
     const cartItems = useSelector((store) => store.cart.items)
-    console.log(cartItems)
     const status = useStatus();
     const [btn, setbtn] = useState("Login");
 

@@ -4,7 +4,7 @@ import useData from "../utils/Hooks/useData"
 const Shimmer = () => {
 
     const data = useData();
-    console.log(data)
+
     return (
 
         <div className="animate-pulse">

@@ -10,7 +10,6 @@ const Cart = () => {
     const handleClearCart = () => {
         dispatch(clearCart())
     }
-    console.log(cartItems)
     return (
         <div className="">
             <div className=" w-1/2 flex flex-col items-center  m-auto p-4  ">

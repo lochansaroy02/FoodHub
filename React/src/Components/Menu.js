@@ -4,6 +4,7 @@ import useMenu from "../utils/Hooks/useMenu";
 import MenuCategory from "./MenuCategory";
 import { useState } from 'react';
 import { useParams } from 'react-router-dom';
+import { useSelector } from 'react-redux';
 
 
 
@@ -13,8 +14,11 @@ const Menu = () => {
 
 
     const resID = useParams();
-    const DATA = useData();
-    const menu = useMenu(resID);
+    const DATA = useSelector((store) => store.restro.resdata);
+    const menu = useSelector((store) => store.restro.menuData);
+
+    useMenu(resID);
+
 
     const dataArr = DATA?.filter((item) => item.info.id === resID.id)
 
