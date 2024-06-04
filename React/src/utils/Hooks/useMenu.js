@@ -18,7 +18,7 @@ const useMenu = (resID) => {
     const fetchMenu = async () => {
         let data = await fetch(MENU_API + Id);
         const json = await data.json();
-        const category = json?.data?.cards[2]?.groupedCard?.cardGroupMap?.REGULAR;
+        const category = json?.data?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR;
         const itemcard = category?.cards;
         const typeString = "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory"
 
