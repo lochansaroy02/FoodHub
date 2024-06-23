@@ -8,8 +8,6 @@ export const API_URL =  "https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.sw
 
 
 
-export const MENU_API = "https://thingproxy.freeboard.io/fetch/https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=23.369726076519406&lng=85.33414583862306&restaurantId=";
-
-
+export const MENU_API = 'https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.swiggy.com%2Fdapi%2Fmenu%2Fpl%3Fpage-type%3DREGULAR_MENU%26complete-menu%3Dtrue%26lat%3D15.8323892%26lng%3D78.0544946%26restaurantId=';
 
     
