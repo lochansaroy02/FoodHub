@@ -23,25 +23,22 @@ const Card = (props) => {
 
 
             <div className=" p-3 rounded-b-xl">
-                <h1 className="font-open font-semibold text-lg  text-white">{resData.info.name}</h1>
+                <h1 className="font-open px-3  text-lg  text-white">{resData.info.name}</h1>
 
 
-                <div className="flex p-2 gap-3 font-open text-white  justify-between">
-                    <div className=" bg-green-300 p-1 border-solid border-2 shadow-inner  border-green-700 flex rounded-2xl ">
+                <div className="flex p-2 font-open text-white gap-5 ">
+                    <div className=" items-center bg-green-800 p-1 border-solid border-2 shadow-inner  border-green-700 flex rounded-2xl ">
 
-                        <h3 className="drop-shadow-lg"> ⭐</h3>
-                        <h3 className="px-1 text-green-800 ">  {resData.info.avgRating}</h3>
+                        <h3 className="px-1 text-green-100 text-xs "> ⭐  {resData.info.avgRating}</h3>
                     </div>
-                    <div className=" bg-red-300 p-1 border-solid border-2 shadow-inner  border-red-700 flex rounded-2xl ">
-                        <h3 className="px-1 text-red-800" >{resData.info.sla.deliveryTime} Mins</h3>
+                    <div className=" bg-red-600 p-1 border-solid border-2 shadow-inner  border-red-700 flex rounded-2xl ">
+                        <h3 className="px-1 text-xs text-red-200" >{resData.info.sla.deliveryTime} Mins</h3>
                     </div>
                 </div>
                 <div className=" ">
-                    <p className="text-slate-200 font-open font-thin ">{resData.info.cuisines.join(", ")}</p>
+                    <p className="text-slate-200 text-sm  p-3 font-open font-thin ">{resData.info.cuisines.join(", ")}</p>
                 </div>
-                <div className=" mt-4 flex justify-center ">
-                    {resData.info.id}
-                </div>
+               
             </div>
         </div>
 </>
