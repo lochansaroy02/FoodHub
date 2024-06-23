@@ -14,6 +14,7 @@ const useMenu = (resID) => {
 
 
     const Id = resID.id;
+    
 
     const fetchMenu = async () => {
         let data = await fetch(MENU_API + Id);
@@ -23,6 +24,7 @@ const useMenu = (resID) => {
         const typeString = "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory"
 
         const type = itemcard?.filter((item) => item.card?.card?.["@type"] === typeString)
+        
         dispatch(addMenu(type))
 
 

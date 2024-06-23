@@ -3,8 +3,12 @@ export const CDN_URL = "https://media-assets.swiggy.com/swiggy/image/upload/fl_l
 
 
 
-export const API_URL =  "https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.swiggy.com%2Fdapi%2Frestaurants%2Flist%2Fv5%3Flat%3D15.8323892%26lng%3D78.0544946%26is-seo-homepage-enabled%3Dtrue%26page_type%3DDESKTOP_WEB_LISTING";
-export const MENU_API = "https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=23.369726076519406&lng=85.33414583862306&restaurantId=";
+export const API_URL =  "https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.swiggy.com%2Fdapi%2Frestaurants%2Flist%2Fv5%3Flat%3D22.5743545%26lng%3D88.3628734%26is-seo-homepage-enabled%3Dtrue%26page_type%3DDESKTOP_WEB_LISTING"
+
+
+
+
+export const MENU_API = "https://thingproxy.freeboard.io/fetch/https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=23.369726076519406&lng=85.33414583862306&restaurantId=";
 
 
 

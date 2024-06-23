@@ -15,15 +15,15 @@ const Restorent = () => {
     const RestroData = useSelector((store) => store.restro.resdata);
     const [input, setInput] = useState("");
     const [filteredData, setFilteredData] = useState([]);
+    
 
-    useData();
-    useMenu(118999)
+
 
     useEffect(() => {
         setFilteredData(RestroData);
     }, [RestroData]);
 
-    return RestroData?.length === 0 ? <Shimmer /> : (
+    return  (
         <>
             <div className="flex flex-col p-4 sm:items-center md:items-center">
                 <div className="sm:m-4 m-4 flex items-center">

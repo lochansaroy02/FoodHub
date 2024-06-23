@@ -30,9 +30,13 @@ const Menu = () => {
 
             <div className="   flex justify-center   ">
                 <div className=" mb-2 bg-neutral-800 w-full  sm:w-1/2 sm:rounded-xl mt-2 p-4 h-full">
-                    {dataArr?.map((item) =>
 
-                        <div key={item.info.id} className='flex flex-col items-center '>
+
+                    {dataArr?.map((item) =>
+                        <>
+                        
+                     
+                        <div key={item.id} className='flex flex-col items-center '>
 
 
                             <h1 className='font-open text-3xl  p-2 '>
@@ -41,6 +45,7 @@ const Menu = () => {
                             </h1>
 
                             <div className="  gap-8">
+                         
                                 <div className='flex  gap-8'>
 
                                     <h2 className='font-open text-lg '>{item.info.locality}, {item.info.areaName}</h2>
@@ -50,6 +55,7 @@ const Menu = () => {
                                 {/* <h2 className='font-open text-lg '> {item.info.avgRating}</h2> */}
                             </div>
                         </div>
+                        </>
                     )}
                 </div>
 
@@ -59,7 +65,7 @@ const Menu = () => {
 
 
 
-            <div className=' flex flex-col '>
+            <div   className=' flex flex-col '>
                 {
                     menu?.map((item, index) => <MenuCategory
                         key={item.name}

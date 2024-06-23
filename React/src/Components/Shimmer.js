@@ -3,7 +3,8 @@ import useData from "../utils/Hooks/useData"
 
 const Shimmer = () => {
 
-    const data = useData();
+
+    const divsArray = Array.from({ length: 8 });
 
     return (
 
@@ -33,10 +34,16 @@ const Shimmer = () => {
             <div className="flex gap-2 flex-wrap justify-center ">
 
 
-                {data?.map((item) =>
-                    <div className="bg-gray-400 rounded-xl  m-4 w-60 h-[300]"></div>
+                <div className="flex gap-2 flex-wrap justify-center">
+                    {divsArray.map((_, index) => (
+                        <div
+                            key={index}
+                            className="bg-gray-400 rounded-xl m-4 w-60"
+                            style={{ height: 300 }}
+                        ></div>
+                    ))}
+                </div>
 
-                )}
 
 
             </div>
