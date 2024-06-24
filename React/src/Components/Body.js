@@ -6,6 +6,8 @@ import { useStore } from "react-redux";
 import useMenu from "../utils/Hooks/useMenu";
 import { useSelector } from "react-redux";
 import Search from "./Search";
+import { Carousel } from "react-responsive-carousel";
+import Crousel from "./Crousel";
 
 
 
@@ -17,12 +19,10 @@ const Body = () => {
 
     useData()
     return (
-        <div className=" bg-neutral-900  ">
-
+        <div className=" bg-neutral-900  mt-12 ">
 
             {data && data.length > 0 ? <Restorent data={data} /> : <Shimmer />}
         </div>
-        // <Search/> 
 
     );
 };

@@ -6,15 +6,23 @@ import { Search } from "react-router-dom";
 import useData from "../utils/Hooks/useData";
 import useStatus from "../utils/Hooks/useStatus";
 import { useSelector } from "react-redux";
+import { FaCartShopping } from "react-icons/fa6";
+
 
 
 const Header = () => {
     const cartItems = useSelector((store) => store.cart.items)
-    const status = useStatus();
     const [btn, setbtn] = useState("Login");
+    
+    
+    const RestroData = useSelector((store) => store.restro.resdata);
+    console.log(RestroData)
+    const [input, setInput] = useState("");
+    const [filteredData, setFilteredData] = useState([]);
+
 
     return (
-        <div className=" drop-shadow flex items-center    bg-neutral-900 border-b justify-between h-">
+        <div className=" drop-shadow flex items-center fixed z-40  w-full inset-x-0 top-0  bg-neutral-900 border-b justify-between h-">
             <div className="image">
                 <Link to="/">
                     <div className="mx-6 my-1 flex items-center">
@@ -26,11 +34,20 @@ const Header = () => {
 
             <div className="" >
                 <ul className=" sm:flex p-4 items-center gap-3 hidden">
-                    {
-                        status ? <li className=" bg-green-400 h-1 rounded-full text-neutral-900"> .</li > : <li className="  h-1 rounded-full text-neutral-900">.</li>
-                    }
-                    <li className="text-slate-100 font-open hover:bg-neutral-400 p-1 rounded-md px-2"> <Link to="/Cart">Cart ({cartItems.length})</Link>   </li>
-                    <li className="text-slate-100 font-open hover:bg-neutral-400 p-1 rounded-md px-2"> <Link to="/About">About</Link>   </li>
+                
+
+                    <div className="flex  ">
+ 
+                    <li className="text-slate-100   text-2xl  relative font-open hover:bg-neutral-400 p-2 rounded-md "> <Link to="/Cart"><FaCartShopping />
+                    <span className="text-sm font-semibold   text-red-500 absolute  top-0 right-px  ">
+                    {cartItems.length}
+                    </span>
+                    </Link>
+                       </li>
+
+                   
+                    </div>
+                  
 
                     <li className="text-slate-100 font-open hover:bg-neutral-400 p-1 rounded-md px-2">
 

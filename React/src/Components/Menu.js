@@ -1,10 +1,11 @@
 import { useParams } from 'react-router-dom'
-import useData from "../utils/Hooks/useData";
 import useMenu from "../utils/Hooks/useMenu";
 import MenuCategory from "./MenuCategory";
 import { useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { useSelector } from 'react-redux';
+import ShimmerMenu from './ShimmerMenu';
+
 
 
 
@@ -14,20 +15,21 @@ const Menu = () => {
 
 
     const resID = useParams();
-    const DATA = useSelector((store) => store.restro.resdata);
+    const data = useSelector((store) => store.restro.resdata);
     const menu = useSelector((store) => store.restro.menuData);
-
+    const RestroData = data[1].card.card.gridElements.infoWithStyle.restaurants;
+    let topRestro = data[4].card.card.gridElements.infoWithStyle.restaurants;
+    
+ 
     useMenu(resID);
 
-
-    const dataArr = DATA?.filter((item) => item.info.id === resID.id)
-
+    const dataArr =  [...RestroData, ...topRestro]?.filter((item) => item.info.id === resID.id).slice(0,1)
 
     const [showIndex, setShowIndex] = useState(null);
 
-    return (
-        <div className=' items-center  '>
-
+    return menu?.length==0 ?( <ShimmerMenu/> ):  (
+        <div className=' items-center mt-16'>
+            
             <div className="   flex justify-center   ">
                 <div className=" mb-2 bg-neutral-800 w-full  sm:w-1/2 sm:rounded-xl mt-2 p-4 h-full">
 

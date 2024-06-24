@@ -13,7 +13,7 @@ const useData = () => {
     const fetchData = async () => {
         let data = await fetch(API_URL);
         const json = await data.json();
-        const Data =json.data.cards[4].card.card.gridElements.infoWithStyle.restaurants;
+        const Data =json.data.cards;
         dispatch(addRestro(Data))
 
 
