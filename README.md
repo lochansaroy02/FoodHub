@@ -13,7 +13,7 @@ FoodHub is a React-based web application that lets users explore and order food 
 - State management using Redux for efficient data handling.
 
 ## Demo 🌐
-Check out the live demo of FoodHub [Live Demo](https://food-hub-lochansaroy02.vercel.app/)
+Check out the live demo of FoodHub [Live Demo](https://food-hub-bice.vercel.app/)
 
 ## Getting Started 🛠️
 
