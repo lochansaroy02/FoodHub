@@ -110,7 +110,7 @@ const Restorent = () => {
                         <Slider {...settings}>
                             {mindRow.map((item) => (
                                 <div key={item.imageId} className="m-2  mix-blend-multiply">
-                                    <img className="w-32 rounded-2xl " src={`${CDN_URL}${item.imageId}`} alt="" />
+                                    <img className="w-32 rounded-2xl px-1  " src={`${CDN_URL}${item.imageId}`} alt="" />
                                 </div>
                             ))}
                         </Slider>
