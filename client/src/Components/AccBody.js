@@ -10,6 +10,8 @@ const AccBody = ({ items }) => {
         dispatch(addItem(item))
     }
     return (
+
+
         <div className=" sm:w-1/2 w-full m-auto " >
             <ul >
 
@@ -79,6 +81,8 @@ const AccBody = ({ items }) => {
 
             </ul >
         </div >
+
+        
     )
 }
 export default AccBody;
