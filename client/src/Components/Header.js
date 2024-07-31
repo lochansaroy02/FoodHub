@@ -1,5 +1,6 @@
 import { LOGO_URL } from "../utils/links";
 import { useState } from "react";
+import { MdOutlineSearch } from "react-icons/md";
 import { Link } from "react-router-dom";
 import { HiOutlineMenu } from "react-icons/hi";
 import { Search } from "react-router-dom";
@@ -13,10 +14,9 @@ import { FaCartShopping } from "react-icons/fa6";
 const Header = () => {
     const cartItems = useSelector((store) => store.cart.items)
     const [btn, setbtn] = useState("Login");
-    
-    
+
+
     const RestroData = useSelector((store) => store.restro.resdata);
-    console.log(RestroData)
     const [input, setInput] = useState("");
     const [filteredData, setFilteredData] = useState([]);
 
@@ -32,22 +32,44 @@ const Header = () => {
                 </Link>
             </div>
 
+            
+            <div className="sm:m-4 m-4 flex items-center">
+                    <input
+                        className="border w-96 h-10 rounded-full text-white pl-4 border-gray-300 bg-neutral-900"
+                        type="text"
+                        placeholder="Search"
+                        value={input}
+                        onChange={(e) => setInput(e.target.value)}
+                    />
+                    <button
+                        className="text-2xl p-1 rounded-full m-4 bg-zinc-600"
+                        onClick={() => {
+                            const filterData = dataItem.filter((rest) =>
+                                rest.info.name.toLowerCase().includes(input.toLowerCase())
+                            );
+                            setFilteredData(filterData);
+                        }}
+                    >
+                        <h2 className="font-open text-white"><MdOutlineSearch /></h2>
+                    </button>
+                </div>
+
             <div className="" >
                 <ul className=" sm:flex p-4 items-center gap-3 hidden">
-                
+
 
                     <div className="flex  ">
- 
-                    <li className="text-slate-100   text-2xl  relative font-open hover:bg-neutral-400 p-2 rounded-md "> <Link to="/Cart"><FaCartShopping />
-                    <span className="text-sm font-semibold   text-red-500 absolute  top-0 right-px  ">
-                    {cartItems.length}
-                    </span>
-                    </Link>
-                       </li>
 
-                   
+                        <li className="text-slate-100   text-2xl  relative font-open hover:bg-neutral-400 p-2 rounded-md "> <Link to="/Cart"><FaCartShopping />
+                            <span className="text-sm font-semibold   text-red-500 absolute  top-0 right-px  ">
+                                {cartItems.length}
+                            </span>
+                        </Link>
+                        </li>
+
+
                     </div>
-                  
+
 
                     <li className="text-slate-100 font-open hover:bg-neutral-400 p-1 rounded-md px-2">
 

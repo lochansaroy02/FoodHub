@@ -8,7 +8,6 @@ const Search = () => {
     let onlineData = data[1].card.card.gridElements.infoWithStyle.restaurants;
     let topRestro = data[4].card.card.gridElements.infoWithStyle.restaurants;
     const RestroData = [...onlineData,...topRestro];
-    console.log(RestroData)
     const [input, setInput] = useState("");
     const [filteredData, setFilteredData] = useState([]);
     

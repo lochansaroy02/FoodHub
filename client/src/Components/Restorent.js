@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import Slider from "react-slick";
-import { MdOutlineSearch } from "react-icons/md";
 import { CDN_URL } from "../utils/links";
 import Card from "./Card";
 import "slick-carousel/slick/slick.css";
@@ -32,7 +31,6 @@ const Restorent = () => {
     const RestroData = data[1].card.card.gridElements.infoWithStyle.restaurants;
     let topRestro = data[4].card.card.gridElements.infoWithStyle.restaurants;
     const dataItem = [...RestroData, ...topRestro];
-    console.log(dataItem)
 
 
     const rowTitle = data[0].card.card.header.title;
@@ -47,31 +45,11 @@ const Restorent = () => {
 
     return (
         <>
-            <div className="flex flex-col p-4 sm:items-center md:items-center">
-                <div className="sm:m-4 m-4 flex items-center">
-                    <input
-                        className="border w-96 h-10 rounded-full text-white pl-4 border-gray-300 bg-neutral-900"
-                        type="text"
-                        placeholder="Search"
-                        value={input}
-                        onChange={(e) => setInput(e.target.value)}
-                    />
+            <div className="flex flex-col p-4  mt-8 sm:items-center md:items-center">
+            
+                <div className="w-full flex mt-12  gap-6 text-sm justify-center md:justify-center">
                     <button
-                        className="text-2xl p-1 rounded-full m-4 bg-zinc-600"
-                        onClick={() => {
-                            const filterData = dataItem.filter((rest) =>
-                                rest.info.name.toLowerCase().includes(input.toLowerCase())
-                            );
-                            setFilteredData(filterData);
-                        }}
-                    >
-                        <h2 className="font-open text-white"><MdOutlineSearch /></h2>
-                    </button>
-                </div>
-
-                <div className="w-full flex gap-6 text-sm justify-center md:justify-center">
-                    <button
-                        className="bg-gray-700 hover:bg-gray-800 px-2 py-1 rounded-lg text-white"
+                        className="bg-gray-700 text-lg hover:bg-gray-800 px-2 py-1 rounded-lg text-white"
                         onClick={() => {
                             const filteredList = RestroData.filter((rest) => rest.info.avgRating > 4);
                             setFilteredData(filteredList);
@@ -80,7 +58,7 @@ const Restorent = () => {
                         Top Rated
                     </button>
                     <button
-                        className="bg-gray-700 hover:bg-gray-800 px-2 py-1 rounded-lg text-white"
+                        className="bg-gray-700 text-lg hover:bg-gray-800 px-2 py-1 rounded-lg text-white"
                         onClick={() => {
                             const filteredList = RestroData.filter((rest) => rest.info.sla.deliveryTime < 30);
                             setFilteredData(filteredList);
@@ -88,8 +66,99 @@ const Restorent = () => {
                     >
                         Fast Delivery
                     </button>
+
                     <button
-                        className="bg-gray-700 hover:bg-gray-800 px-2 py-1 rounded-lg text-white"
+                        className="bg-gray-700 text-lg hover:bg-gray-800 px-2 py-1 rounded-lg text-white"
+                        onClick={() => {
+                            const filteredList = RestroData.filter((rest) => rest.info.veg === true);
+                            setFilteredData(filteredList);
+                        }}
+                    >
+                        Veg
+                    </button>
+                    <button
+                        className="bg-gray-700 text-lg hover:bg-gray-800 px-2 py-1 rounded-lg text-white"
+                        onClick={() => {
+                            const filteredList = RestroData.filter((rest) => rest.info.veg === true);
+                            setFilteredData(filteredList);
+                        }}
+                    >
+                        Veg
+                    </button>
+                    <button
+                        className="bg-gray-700 text-lg hover:bg-gray-800 px-2 py-1 rounded-lg text-white"
+                        onClick={() => {
+                            const filteredList = RestroData.filter((rest) => rest.info.veg === true);
+                            setFilteredData(filteredList);
+                        }}
+                    >
+                        Veg
+                    </button>
+                    <button
+                        className="bg-gray-700 text-lg hover:bg-gray-800 px-2 py-1 rounded-lg text-white"
+                        onClick={() => {
+                            const filteredList = RestroData.filter((rest) => rest.info.veg === true);
+                            setFilteredData(filteredList);
+                        }}
+                    >
+                        Veg
+                    </button>
+                    <button
+                        className="bg-gray-700 text-lg hover:bg-gray-800 px-2 py-1 rounded-lg text-white"
+                        onClick={() => {
+                            const filteredList = RestroData.filter((rest) => rest.info.veg === true);
+                            setFilteredData(filteredList);
+                        }}
+                    >
+                        Veg
+                    </button>
+                    <button
+                        className="bg-gray-700 text-lg hover:bg-gray-800 px-2 py-1 rounded-lg text-white"
+                        onClick={() => {
+                            const filteredList = RestroData.filter((rest) => rest.info.veg === true);
+                            setFilteredData(filteredList);
+                        }}
+                    >
+                        Veg
+                    </button>
+                    <button
+                        className="bg-gray-700 text-lg hover:bg-gray-800 px-2 py-1 rounded-lg text-white"
+                        onClick={() => {
+                            const filteredList = RestroData.filter((rest) => rest.info.veg === true);
+                            setFilteredData(filteredList);
+                        }}
+                    >
+                        Veg
+                    </button>
+                    <button
+                        className="bg-gray-700 text-lg hover:bg-gray-800 px-2 py-1 rounded-lg text-white"
+                        onClick={() => {
+                            const filteredList = RestroData.filter((rest) => rest.info.veg === true);
+                            setFilteredData(filteredList);
+                        }}
+                    >
+                        Veg
+                    </button>
+                    <button
+                        className="bg-gray-700 text-lg hover:bg-gray-800 px-2 py-1 rounded-lg text-white"
+                        onClick={() => {
+                            const filteredList = RestroData.filter((rest) => rest.info.veg === true);
+                            setFilteredData(filteredList);
+                        }}
+                    >
+                        Veg
+                    </button>
+                    <button
+                        className="bg-gray-700 text-lg hover:bg-gray-800 px-2 py-1 rounded-lg text-white"
+                        onClick={() => {
+                            const filteredList = RestroData.filter((rest) => rest.info.veg === true);
+                            setFilteredData(filteredList);
+                        }}
+                    >
+                        Veg
+                    </button>
+                    <button
+                        className="bg-gray-700 text-lg hover:bg-gray-800 px-2 py-1 rounded-lg text-white"
                         onClick={() => {
                             const filteredList = RestroData.filter((rest) => rest.info.veg === true);
                             setFilteredData(filteredList);
@@ -109,8 +178,8 @@ const Restorent = () => {
                     <div className=" flex flex-col w-3/4">
                         <Slider {...settings}>
                             {mindRow.map((item) => (
-                                <div key={item.imageId} className="m-2  mix-blend-multiply">
-                                    <img className="w-32 rounded-2xl px-1  " src={`${CDN_URL}${item.imageId}`} alt="" />
+                                <div key={item.imageId} className="m-2 ">
+                                    <img className="w-32 rounded-2xl px-1" src={`${CDN_URL}${item.imageId}`} alt="" />
                                 </div>
                             ))}
                         </Slider>
